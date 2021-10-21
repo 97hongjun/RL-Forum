@@ -1,0 +1,3 @@
+[submodule "rl_forum/themes/hugo-theme-stack"]
+	path = rl_forum/themes/hugo-theme-stack
+	url = https://github.com/CaiJimmy/hugo-theme-stack/
