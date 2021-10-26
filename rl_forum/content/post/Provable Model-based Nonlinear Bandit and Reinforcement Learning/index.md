@@ -22,9 +22,14 @@ categories:
 </p>
 
 ### Reference
-<a href="url">https://arxiv.org/pdf/2102.04168.pdf</a>
+<a href="url" target="_blank" rel="noopener noreferrer">https://arxiv.org/pdf/2102.04168.pdf</a>
 
 ### Bio
 <p>
     Tengyu Ma is an assistant professor of Computer Science and Statistics at Stanford University. He received his Ph.D. from Princeton University and B.E. from Tsinghua University. His research interests include topics in machine learning and algorithms, such as deep learning and its theory, non-convex optimization, deep reinforcement learning, representation learning, and high-dimensional statistics. He is a recipient of NIPS'16 best student paper award, COLT'18 best paper award, ACM Doctoral Dissertation Award Honorable Mention, and Sloan Fellowship.
+</p>
+
+### Recording
+<p>
+    <a href="https://stanford.zoom.us/rec/play/iT85r9ttX7iI9YB9VF6yUDbXqF-wBOGRzJbrIKQG6MhFNP3KjFjEol2auX2wyCjRzcur5fFV9ypc1fBA.UAtgiQbKjj40Pw6l?continueMode=true&_x_zm_rtaid=ZP9lLdXYQNKYXQgXq7aQrQ.1618800579957.5a319de73a91a250c868e79e52750756&_x_zm_rhtaid=796" target="_blank" rel="noopener noreferrer">Recording</a><br>
 </p>
