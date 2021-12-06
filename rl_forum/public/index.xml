@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Stanford RL Forum</title>
+        <link>https://97hongjun.github.io/</link>
+        <description>Recent content on Stanford RL Forum</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Reinforcement Learning, Bit by Bit</title>
+        <link>https://97hongjun.github.io/p/rl-bit-by-bit/</link>
+        <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://97hongjun.github.io/p/rl-bit-by-bit/</guid>
+        <description>&lt;img src="https://97hongjun.github.io/p/rl-bit-by-bit/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg" alt="Featured image of post Reinforcement Learning, Bit by Bit" /&gt;&lt;h3 id=&#34;presenter&#34;&gt;Presenter&lt;/h3&gt;
+&lt;p&gt;
+    Xiuyuan (Lucy) Lu&lt;br&gt;
+    Research Scientist,&lt;br&gt;
+    DeepMind, Mountain View&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;
+    Reinforcement learning agents have demonstrated remarkable achievements in simulated environments. Data efficiency poses an impediment to carrying this success over to real environments. The design of data-efficient agents calls for a deeper understanding of information acquisition and representation. We develop concepts and establish a regret bound that together offer principled guidance. The bound sheds light on questions of what information to seek, how to seek that information, and what information to retain. To illustrate concepts, we design simple agents that build on them and present computational results that demonstrate improvements in data efficiency.
+&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/pdf/2103.04047.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://arxiv.org/pdf/2103.04047.pdf&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
+&lt;p&gt;
+    Xiuyuan Lu is a research scientist at DeepMind. She is interested in building data-efficient reinforcement learning agents. She obtained her PhD in 2020 from the Department of Management Science and Engineering at Stanford University.
+&lt;/p&gt;
+&lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
+&lt;p&gt;
+    &lt;a href=&#34;https://stanford.zoom.us/rec/play/m9BP7430B8jcl6iFRomPWjcXfMzjSXihSXlOcYLCUWP-9oYexMWU1Xb8Sfu1LSyEX0196LsWcmS3dSmq.EloRFp80gdQZDq-1?continueMode=true&amp;_x_zm_rtaid=KV-j0mABQLqkJR5QUbWjSA.1618942041710.c4629d090448fa38d57f34556ef7427e&amp;_x_zm_rhtaid=389&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Lecture 1 Recording&lt;/a&gt;&lt;br&gt;
+    &lt;a href=&#34;https://stanford.zoom.us/rec/play/kfMpDYfTWqnOZEe656ISqWhSAbyWiGUKZA1lAHliRCrqfhl_6biL3xH10YDkp3W9N-k_ElChym9EO8Nn.j8ylads97aC1izOZ?continueMode=true&amp;_x_zm_rtaid=3Yguu6A8QVK-2yxQVJAMSA.1635206758825.17a5ebec65255ebeea1580a6ac77476c&amp;_x_zm_rhtaid=487&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Lecture 2 Recording&lt;/a&gt;
+&lt;/p&gt;</description>
+        </item>
+        <item>
+        <title>Provable Model-based Nonlinear Bandit and Reinforcement Learning</title>
+        <link>https://97hongjun.github.io/p/provable-model-based-bandit-rl/</link>
+        <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://97hongjun.github.io/p/provable-model-based-bandit-rl/</guid>
+        <description>&lt;img src="https://97hongjun.github.io/p/provable-model-based-bandit-rl/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Provable Model-based Nonlinear Bandit and Reinforcement Learning" /&gt;&lt;h3 id=&#34;presenter&#34;&gt;Presenter&lt;/h3&gt;
+&lt;p&gt;
+    Tengyu Ma&lt;br&gt;
+    Assistant Professor of Computer Science and Statistics,&lt;br&gt;
+    Stanford&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;
+    Deep model-based reinforcement learning methods have achieved state-of-the-art sample efficiency but we lack a theoretical understanding of them. This talk will first show that convergence to a global maximum requires an exponential number of samples even for a one-layer neural net bandit problem, which is strictly easier than RL. Therefore, we propose to study convergence to local maxima. For both nonlinear bandit and RL, I will present a model-based algorithm, Virtual Ascent with Online Model Learner (ViOL), which provably converges to a local maximum with sample complexity that only depends on the sequential Rademacher complexity of the model class. Our results imply novel global or local regret bounds on several concrete settings such as linear bandit with finite or sparse model class, and two-layer neural net bandit.
+&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/pdf/2102.04168.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://arxiv.org/pdf/2102.04168.pdf&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
+&lt;p&gt;
+    Tengyu Ma is an assistant professor of Computer Science and Statistics at Stanford University. He received his Ph.D. from Princeton University and B.E. from Tsinghua University. His research interests include topics in machine learning and algorithms, such as deep learning and its theory, non-convex optimization, deep reinforcement learning, representation learning, and high-dimensional statistics. He is a recipient of NIPS&#39;16 best student paper award, COLT&#39;18 best paper award, ACM Doctoral Dissertation Award Honorable Mention, and Sloan Fellowship.
+&lt;/p&gt;
+&lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
+&lt;p&gt;
+    &lt;a href=&#34;https://stanford.zoom.us/rec/play/iT85r9ttX7iI9YB9VF6yUDbXqF-wBOGRzJbrIKQG6MhFNP3KjFjEol2auX2wyCjRzcur5fFV9ypc1fBA.UAtgiQbKjj40Pw6l?continueMode=true&amp;_x_zm_rtaid=ZP9lLdXYQNKYXQgXq7aQrQ.1618800579957.5a319de73a91a250c868e79e52750756&amp;_x_zm_rhtaid=796&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Recording&lt;/a&gt;&lt;br&gt;
+&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Diffusion Asymptotics for Sequential Experiments</title>
+        <link>https://97hongjun.github.io/p/diffusion-asymptotic-sequential-exp/</link>
+        <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://97hongjun.github.io/p/diffusion-asymptotic-sequential-exp/</guid>
+        <description>&lt;img src="https://97hongjun.github.io/p/diffusion-asymptotic-sequential-exp/flower.jpg" alt="Featured image of post Diffusion Asymptotics for Sequential Experiments" /&gt;&lt;h3 id=&#34;presenter&#34;&gt;Presenter&lt;/h3&gt;
+&lt;p&gt;
+    Kuang Xu&lt;br&gt;
+    Associate Professor of Operations, Information and Technology,&lt;br&gt;
+    Stanford Graduate School of Business&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;
+    I will discuss in this talk a new diffusion-asymptotic analysis for sequentially randomized experiments. Rather than taking sample size n to infinity while keeping the problem parameters fixed, we let the mean signal level scale to the order 1/\sqrt{n} so as to preserve the difficulty of the learning task as n gets large. In this regime, we show that the behavior of a class of methods for sequential experimentation converges to a diffusion limit. This connection enables us to make sharp performance predictions and obtain new insights on the behavior of Thompson sampling. Our diffusion asymptotics also help resolve a discrepancy between the Θ(log(n)) regret predicted by the fixed-parameter, large-sample asymptotics on the one hand, and the Θ(\sqrt{n}) regret from worst-case, finite-sample analysis on the other, suggesting that it is an appropriate asymptotic regime for understanding practical large-scale sequential experiments.
+&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/pdf/2101.09855.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://arxiv.org/pdf/2101.09855.pdf&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
+&lt;p&gt;
+    Kuang Xu is an Associate Professor of Operations, Information and Technology at Stanford Graduate School of Business, and Associate Professor by courtesy with the Electrical Engineering Department, Stanford University. Born in Suzhou, China, he received the B.S. degree in Electrical Engineering (2009) from the University of Illinois at Urbana-Champaign, and the Ph.D. degree in Electrical Engineering and Computer Science (2014) from the Massachusetts Institute of Technology. His research primarily focuses on understanding fundamental properties and design principles of large-scale stochastic systems using tools from probability theory and optimization, with applications in queueing networks, healthcare, privacy and machine learning. He received First Place in the INFORMS George E. Nicholson Student Paper Competition (2011), the Best Paper Award, as well as the Kenneth C. Sevcik Outstanding Student Paper Award at ACM SIGMETRICS (2013), and the ACM SIGMETRICS Rising Star Research Award (2020). He currently serves as an Associate Editor for Operations Research.
+&lt;/p&gt;
+&lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
+&lt;p&gt;
+    &lt;a href=&#34;https://stanford.zoom.us/rec/play/3H4nNPjycniAayUSk5o6h3z34jO4Qbup411T_xKqxQVTtcBnNs5oA2-h3hwjD0Q2t7sM2nLdtBwEsBRi.Wt5CMVlrHws0D9O3?continueMode=true&amp;_x_zm_rtaid=udQo9uzHR6WuPphcmSqFfg.1635206852126.aab3b197e3cd6df4cab5b980c64072fb&amp;_x_zm_rhtaid=736&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Recording&lt;/a&gt;&lt;br&gt;
+&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Lectures on Information Directed Sampling</title>
+        <link>https://97hongjun.github.io/p/lec-ids/</link>
+        <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+        
+        <guid>https://97hongjun.github.io/p/lec-ids/</guid>
+        <description>&lt;img src="https://97hongjun.github.io/p/lec-ids/walk.jpg" alt="Featured image of post Lectures on Information Directed Sampling" /&gt;&lt;h3 id=&#34;presenter&#34;&gt;Presenter&lt;/h3&gt;
+&lt;p&gt;
+    Tor Lattimore&lt;br&gt;
+    Research Scientist,&lt;br&gt;
+    Deepmind, London&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;
+    Tor will give a whirlwind tour of a series of recent papers on the information directed sampling algorithm for sequential decision-making. The results come in three flavours. First, generalising and applying the IDS algorithm to problems with a rich information structure such as convex bandits and partial monitoring. Second, showing a connection between the optimisation problem solved by IDS and the optimisation problem that determines the asymptotic lower bound for stochastic structured bandit problems. Third, showing a deep connection between IDS and the mirror descent framework for convex optimisation.
+&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;p&gt;
+    &lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://arxiv.org/abs/2011.05944&lt;/a&gt;&lt;br&gt;
+    &lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://arxiv.org/abs/2009.12228&lt;/a&gt;&lt;br&gt;
+    &lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://arxiv.org/abs/1907.05772&lt;/a&gt;&lt;br&gt;
+    &lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://arxiv.org/abs/2006.00475&lt;/a&gt;&lt;br&gt;
+    &lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://arxiv.org/abs/2002.11182&lt;/a&gt;&lt;br&gt;
+    &lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://arxiv.org/abs/1902.00470&lt;/a&gt;&lt;br&gt;
+    &lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://arxiv.org/abs/1905.11817&lt;/a&gt;&lt;br&gt;
+&lt;/p&gt;
+### Bio
+&lt;p&gt;
+    Tor Lattimore is a research scientist at DeepMind working on the foundations of machine learning and especially decision-making. Before joining DeepMind he was an assistant professor at Indiana University and a postdoc at the University of Alberta. He obtained his PhD from the Australian National University under the supervision of Marcus Hutter in 2014.
+&lt;/p&gt;
+&lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
+&lt;p&gt;
+    &lt;a href=&#34;https://stanford.zoom.us/rec/play/sLK9KgHvSbo3j2ccznm0wUj1rU1KWG_9ck0X5SRMcVUpD5iqLckJx_Y8RE93lboxzsAuPBd57iXojZPb.qM74pXvpYsyR1Tq7?continueMode=true&amp;_x_zm_rtaid=1qmp5vKrRK-Cc05aVJxWfQ.1610393820266.44dec0e3d84a783b1da06cb3f008edfc&amp;_x_zm_rhtaid=823&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Lecture 1 Recording&lt;/a&gt;&lt;br&gt;
+    &lt;a href=&#34;https://stanford.zoom.us/rec/play/a7MMBIP4KJzSG6srg8rCsv0X2pGLUJXIfVRmiqpIAORnY-mN3cY0NKxidbmA-myNzIC2mPcH0I_vdOYp.BGW7u0t-Vw0teSga?startTime=1610560965000&amp;_x_zm_rtaid=omqNQuvITKyU7pBn-xn8xg.1610693976189.6d9c899cb89e2fbd1a709c7cc59bd220&amp;_x_zm_rhtaid=346&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Lecture 2 Recording&lt;/a&gt;&lt;br&gt;
+&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

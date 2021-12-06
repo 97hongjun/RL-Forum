@@ -4,7 +4,7 @@ aliases:
   - about
 license: CC BY-NC-ND
 menu:
-    main: 
+    main:
         weight: -110
         pre: user
 ---

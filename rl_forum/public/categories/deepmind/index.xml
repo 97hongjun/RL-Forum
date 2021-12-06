@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deepmind on Stanford RL Forum</title>
+    <link>https://97hongjun.github.io/categories/deepmind/</link>
+    <description>Recent content in Deepmind on Stanford RL Forum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/categories/deepmind/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reinforcement Learning, Bit by Bit</title>
+      <link>https://97hongjun.github.io/p/rl-bit-by-bit/</link>
+      <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://97hongjun.github.io/p/rl-bit-by-bit/</guid>
+      <description>Presenter  Xiuyuan (Lucy) Lu
+Research Scientist,
+DeepMind, Mountain View
+Abstract  Reinforcement learning agents have demonstrated remarkable achievements in simulated environments. Data efficiency poses an impediment to carrying this success over to real environments. The design of data-efficient agents calls for a deeper understanding of information acquisition and representation. We develop concepts and establish a regret bound that together offer principled guidance. The bound sheds light on questions of what information to seek, how to seek that information, and what information to retain.</description>
+    </item>
+    
+    <item>
+      <title>Lectures on Information Directed Sampling</title>
+      <link>https://97hongjun.github.io/p/lec-ids/</link>
+      <pubDate>Mon, 11 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://97hongjun.github.io/p/lec-ids/</guid>
+      <description>Presenter  Tor Lattimore
+Research Scientist,
+Deepmind, London
+Abstract  Tor will give a whirlwind tour of a series of recent papers on the information directed sampling algorithm for sequential decision-making. The results come in three flavours. First, generalising and applying the IDS algorithm to problems with a rich information structure such as convex bandits and partial monitoring. Second, showing a connection between the optimisation problem solved by IDS and the optimisation problem that determines the asymptotic lower bound for stochastic structured bandit problems.</description>
+    </item>
+    
+  </channel>
+</rss>

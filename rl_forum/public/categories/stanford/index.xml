@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stanford on Stanford RL Forum</title>
+    <link>https://97hongjun.github.io/categories/stanford/</link>
+    <description>Recent content in Stanford on Stanford RL Forum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/categories/stanford/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Provable Model-based Nonlinear Bandit and Reinforcement Learning</title>
+      <link>https://97hongjun.github.io/p/provable-model-based-bandit-rl/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://97hongjun.github.io/p/provable-model-based-bandit-rl/</guid>
+      <description>Presenter  Tengyu Ma
+Assistant Professor of Computer Science and Statistics,
+Stanford
+Abstract  Deep model-based reinforcement learning methods have achieved state-of-the-art sample efficiency but we lack a theoretical understanding of them. This talk will first show that convergence to a global maximum requires an exponential number of samples even for a one-layer neural net bandit problem, which is strictly easier than RL. Therefore, we propose to study convergence to local maxima.</description>
+    </item>
+    
+    <item>
+      <title>Diffusion Asymptotics for Sequential Experiments</title>
+      <link>https://97hongjun.github.io/p/diffusion-asymptotic-sequential-exp/</link>
+      <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://97hongjun.github.io/p/diffusion-asymptotic-sequential-exp/</guid>
+      <description>Presenter  Kuang Xu
+Associate Professor of Operations, Information and Technology,
+Stanford Graduate School of Business
+Abstract  I will discuss in this talk a new diffusion-asymptotic analysis for sequentially randomized experiments. Rather than taking sample size n to infinity while keeping the problem parameters fixed, we let the mean signal level scale to the order 1/\sqrt{n} so as to preserve the difficulty of the learning task as n gets large.</description>
+    </item>
+    
+  </channel>
+</rss>
