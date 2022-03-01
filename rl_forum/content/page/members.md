@@ -2,7 +2,7 @@
 title: Organising Members
 aliases:
   - about-us
-license: CC BY-NC-ND
+license:
 menu:
     main: 
         weight: -90
