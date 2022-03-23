@@ -37,3 +37,4 @@ categories:
 </p>
 
 ### Recording
+<a href="https://www.youtube.com/watch?v=h1yAaJzA5Ao&list=PLv_7iO_xlL0Ks_rnHPbzHaIOHfkOu_hfw&index=44" target="_blank" rel="noopener noreferrer">Lecture Recording</a><br>

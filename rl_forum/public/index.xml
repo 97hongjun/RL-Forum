@@ -6,7 +6,38 @@
         <description>Recent content on Stanford RL Forum</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 03 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Adaptivity and Confounding in Multi-Armed Bandit Experiments</title>
+        <link>https://97hongjun.github.io/p/adaptive-confounding-bandit/</link>
+        <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://97hongjun.github.io/p/adaptive-confounding-bandit/</guid>
+        <description>&lt;img src="https://97hongjun.github.io/p/adaptive-confounding-bandit/russo.jpg" alt="Featured image of post Adaptivity and Confounding in Multi-Armed Bandit Experiments" /&gt;&lt;h3 id=&#34;logistic&#34;&gt;Logistic&lt;/h3&gt;
+&lt;p&gt;
+    &lt;strong&gt; Time:&lt;/strong&gt; 4:00-5:00 PM; 3/3/2022&lt;br&gt;
+    &lt;strong&gt; Zoom Link: &lt;/strong&gt; &lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://stanford.zoom.us/meeting/register/tJckfuCurzkvEtKKOBvDCrPv3McapgP6HygJ&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;presenter&#34;&gt;Presenter&lt;/h3&gt;
+&lt;p&gt;
+    Daniel Russo&lt;br&gt;
+    Associate Professor of Decision, Risk, and Operations division of Columbia Business School,&lt;br&gt;
+    Columbia Business School&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;
+    Multi-armed bandit algorithms minimize experimentation costs required to converge on optimal behavior. They do so by rapidly adapting experimentation effort away from poorly performing actions as feedback is observed. But this desirable feature makes them sensitive to confounding, which is the primary concern underlying classical randomized controlled trials. We highlight, for instance, that popular bandit algorithms cannot address the problem of identifying the best action when day-of-week effects may influence reward observations. In response, this paper proposes deconfounded Thompson sampling, which makes simple, but critical, modifications to the way Thompson sampling is usually applied. Theoretical guarantees suggest the algorithm strikes a delicate balance between adaptivity and robustness to confounding. It attains asymptotic lower bounds on the number of samples required to confidently identify the best action -- suggesting optimal adaptivity -- but also satisfies strong performance guarantees in the presence of day-of-week effects and delayed observations -- suggesting unusual robustness. At the core of the paper is a new model of contextual bandit experiments in which issues of delayed learning and distribution shift arise organically.
+&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/pdf/2202.09036.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://arxiv.org/pdf/2202.09036.pdf&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
+&lt;p&gt;
+    Daniel Russo is an Associate Professor in the Decision, Risk, and Operations division of Columbia Business School. His research focuses on problems at the intersection of sequential decision-making and statistical machine learning. He completed his PhD at Stanford under the supervision of Ben Van Roy.
+&lt;/p&gt;
+&lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
+</description>
+        </item>
+        <item>
         <title>Reinforcement Learning, Bit by Bit</title>
         <link>https://97hongjun.github.io/p/rl-bit-by-bit/</link>
         <pubDate>Tue, 20 Apr 2021 00:00:00 +0000</pubDate>

@@ -6,7 +6,20 @@
     <description>Recent content in Theory on Stanford RL Forum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 20 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/categories/theory/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/categories/theory/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adaptivity and Confounding in Multi-Armed Bandit Experiments</title>
+      <link>https://97hongjun.github.io/p/adaptive-confounding-bandit/</link>
+      <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://97hongjun.github.io/p/adaptive-confounding-bandit/</guid>
+      <description>Logistic   Time: 4:00-5:00 PM; 3/3/2022
+ Zoom Link:  https://stanford.zoom.us/meeting/register/tJckfuCurzkvEtKKOBvDCrPv3McapgP6HygJ Presenter  Daniel Russo
+Associate Professor of Decision, Risk, and Operations division of Columbia Business School,
+Columbia Business School
+Abstract  Multi-armed bandit algorithms minimize experimentation costs required to converge on optimal behavior. They do so by rapidly adapting experimentation effort away from poorly performing actions as feedback is observed. But this desirable feature makes them sensitive to confounding, which is the primary concern underlying classical randomized controlled trials.</description>
+    </item>
+    
     <item>
       <title>Reinforcement Learning, Bit by Bit</title>
       <link>https://97hongjun.github.io/p/rl-bit-by-bit/</link>
