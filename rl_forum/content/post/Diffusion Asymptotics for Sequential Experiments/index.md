@@ -3,7 +3,7 @@ title: Diffusion Asymptotics for Sequential Experiments
 description: Kuang Xu
 date: 2021-03-23
 slug: diffusion-asymptotic-sequential-exp
-image: flower.jpg
+image: diffusionAsymptotics.png
 categories:
     - Stanford
     - Theory

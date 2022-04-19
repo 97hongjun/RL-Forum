@@ -4,7 +4,7 @@ description: Daniel Russo
 date: 2022-03-03
 publishdate: 2022-02-28
 slug: adaptive-confounding-bandit
-image: russo.jpg
+image: adaptConfoundMAB.png
 categories:
     - Upcoming
     - Theory

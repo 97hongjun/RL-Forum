@@ -3,7 +3,7 @@ title: Reinforcement Learning, Bit by Bit
 description: Xiuyuan (Lucy) Lu
 date: 2021-04-20
 slug: rl-bit-by-bit
-image: pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg
+image: rlBitByBit.png
 categories:
     - Deepmind
     - Theory

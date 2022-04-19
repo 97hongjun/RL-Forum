@@ -3,7 +3,7 @@ title: Lectures on Information Directed Sampling
 description: Tor Lattimore
 date: 2021-01-11
 slug: lec-ids
-image: walk.jpg
+image: lecturesIDS.png
 categories:
     - Deepmind
     - Theory

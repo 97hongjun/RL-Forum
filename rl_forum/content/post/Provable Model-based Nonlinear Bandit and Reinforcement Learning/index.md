@@ -3,7 +3,7 @@ title: Provable Model-based Nonlinear Bandit and Reinforcement Learning
 description: Tengyu Ma
 date: 2021-04-15
 slug: provable-model-based-bandit-rl
-image: helena-hertz-wWZzXlDpMog-unsplash.jpg
+image: modelBasedMABRL.png
 categories:
     - Stanford
     - Theory
