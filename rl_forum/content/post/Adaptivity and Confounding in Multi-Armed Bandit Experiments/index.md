@@ -6,7 +6,7 @@ publishdate: 2022-02-28
 slug: adaptive-confounding-bandit
 image: adaptConfoundMAB.png
 categories:
-    - Upcoming
+    - Columbia
     - Theory
 ---
 
