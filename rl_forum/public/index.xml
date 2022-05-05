@@ -6,7 +6,39 @@
         <description>Recent content on Stanford RL Forum</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 03 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Optimal Clustering with Bandit Feedback</title>
+        <link>https://97hongjun.github.io/p/optimal-clustering/</link>
+        <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://97hongjun.github.io/p/optimal-clustering/</guid>
+        <description>&lt;img src="https://97hongjun.github.io/p/optimal-clustering/optimalClustering.png" alt="Featured image of post Optimal Clustering with Bandit Feedback" /&gt;&lt;h3 id=&#34;logistic&#34;&gt;Logistic&lt;/h3&gt;
+&lt;p&gt;
+    &lt;strong&gt; Time:&lt;/strong&gt; 2:00-3:00 PM; 5/24/2022&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;presenter&#34;&gt;Presenter&lt;/h3&gt;
+&lt;p&gt;
+    Vincent Y. F. Tan&lt;br&gt;
+    Associate Professor and Dean&#39;s Chair&lt;br&gt;
+    Deparrtment of Electrical and Computer Engineering&lt;br&gt;
+    Department of Mathematics&lt;br&gt;
+    National University of Singapore&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;
+    This paper considers the problem of online clustering with bandit feedback. A set of arms (or items) can be partitioned into various groups that are unknown. Within each group, the observations associated to each of the arms follow the same distribution with the same mean vector. At each time step, the agent queries or pulls an arm and obtains an independent observation from the distribution it is associated to. Subsequent pulls depend on previous ones as well as the previously obtained samples. The agent&#39;s task is to uncover the underlying partition of the arms with the least number of arm pulls and with a probability of error not exceeding a prescribed constant δ. The problem proposed finds numerous applications from clustering of variants of viruses to online market segmentation. We present an instance-dependent information-theoretic lower bound on the expected sample complexity for this task, and design a computationally efficient and asymptotically optimal algorithm, namely Bandit Online Clustering (BOC). The algorithm includes a novel stopping rule for adaptive sequential testing that circumvents the need to exactly solve any NP-hard weighted clustering problem as its subroutines. We show through extensive simulations on synthetic and real-world datasets that BOC&#39;s performance matches the lower bound asymptotically, and significantly outperforms a non-adaptive baseline algorithm.
+&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/abs/2202.04294&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://arxiv.org/abs/2202.04294&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
+&lt;p&gt;
+    Vincent Y. F. Tan received the B.A. and M.Eng. degrees in electrical and information science from Cambridge University in 2005, and the Ph.D. degree in electrical engineering and computer science (EECS) from the Massachusetts Institute of Technology (MIT) in 2011. He is currently a Dean’s Chair Associate Professor with the Department of Electrical and Computer Engineering and the Department of Mathematics, National University of Singapore (NUS). His research interests include information theory, machine learning, and statistical signal processing.
+&lt;/p&gt;
+&lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
+</description>
+        </item>
+        <item>
         <title>Adaptivity and Confounding in Multi-Armed Bandit Experiments</title>
         <link>https://97hongjun.github.io/p/adaptive-confounding-bandit/</link>
         <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
