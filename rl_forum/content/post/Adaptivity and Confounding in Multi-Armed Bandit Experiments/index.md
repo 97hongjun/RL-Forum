@@ -2,7 +2,6 @@
 title: Adaptivity and Confounding in Multi-Armed Bandit Experiments
 description: Daniel Russo
 date: 2022-03-03
-publishdate: 2022-02-28
 slug: adaptive-confounding-bandit
 image: adaptConfoundMAB.png
 categories:
