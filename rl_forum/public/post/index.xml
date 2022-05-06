@@ -13,8 +13,8 @@
       <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
       
       <guid>https://97hongjun.github.io/p/optimal-clustering/</guid>
-      <description>Logistic   Time: 2:00-3:00 PM; 5/24/2022
-Presenter  Vincent Y. F. Tan
+      <description>Logistics   Time: 2:00-3:00 PM; 5/24/2022
+Zoom Lecture Presenter  Vincent Y. F. Tan
 Associate Professor and Dean&#39;s Chair
 Deparrtment of Electrical and Computer Engineering
 Department of Mathematics
@@ -23,12 +23,25 @@ Abstract  This paper considers the problem of online clustering with bandit feed
     </item>
     
     <item>
+      <title>Epistemic Neural Networks</title>
+      <link>https://97hongjun.github.io/p/epistemic-neural-networks/</link>
+      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://97hongjun.github.io/p/epistemic-neural-networks/</guid>
+      <description>Logistics   Time: 4:00-5:00 PM; 5/18/2022
+Hybrid Lecture Presenter  Ian Osband
+Research Scientist,
+DeepMind, Mountain View
+Abstract  Effective decision, exploration, and adaptation often require an agent to know what it knows and, also, what it does not know. This capability relies on the quality of joint predictions of labels assigned to multiple inputs. Conventional neural networks lack this capability and, since most research has focused on marginal predictions, this shortcoming has been largely overlooked.</description>
+    </item>
+    
+    <item>
       <title>Adaptivity and Confounding in Multi-Armed Bandit Experiments</title>
       <link>https://97hongjun.github.io/p/adaptive-confounding-bandit/</link>
       <pubDate>Thu, 03 Mar 2022 00:00:00 +0000</pubDate>
       
       <guid>https://97hongjun.github.io/p/adaptive-confounding-bandit/</guid>
-      <description>Logistic   Time: 4:00-5:00 PM; 3/3/2022
+      <description>Logistics   Time: 4:00-5:00 PM; 3/3/2022
  Zoom Link:  https://stanford.zoom.us/meeting/register/tJckfuCurzkvEtKKOBvDCrPv3McapgP6HygJ Presenter  Daniel Russo
 Associate Professor of Decision, Risk, and Operations division of Columbia Business School,
 Columbia Business School

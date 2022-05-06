@@ -6,7 +6,6 @@ slug: lec-ids
 image: lecturesIDS.png
 categories:
     - Deepmind
-    - Theory
 ---
 
 ### Presenter

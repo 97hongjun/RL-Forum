@@ -6,7 +6,6 @@ slug: provable-model-based-bandit-rl
 image: modelBasedMABRL.png
 categories:
     - Stanford
-    - Theory
 ---
 
 ### Presenter

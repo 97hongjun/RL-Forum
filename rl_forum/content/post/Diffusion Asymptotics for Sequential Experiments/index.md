@@ -6,7 +6,6 @@ slug: diffusion-asymptotic-sequential-exp
 image: diffusionAsymptotics.png
 categories:
     - Stanford
-    - Theory
 ---
 
 ### Presenter

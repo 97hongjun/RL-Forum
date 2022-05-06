@@ -7,10 +7,9 @@ slug: adaptive-confounding-bandit
 image: adaptConfoundMAB.png
 categories:
     - Columbia
-    - Theory
 ---
 
-### Logistic
+### Logistics
 <p>
     <strong> Time:</strong> 4:00-5:00 PM; 3/3/2022<br>
     <strong> Zoom Link: </strong> <a href="url" target="_blank" rel="noopener noreferrer">https://stanford.zoom.us/meeting/register/tJckfuCurzkvEtKKOBvDCrPv3McapgP6HygJ</a>

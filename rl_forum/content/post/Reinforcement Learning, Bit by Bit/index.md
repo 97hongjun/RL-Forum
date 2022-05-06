@@ -6,7 +6,6 @@ slug: rl-bit-by-bit
 image: rlBitByBit.png
 categories:
     - Deepmind
-    - Theory
 ---
 
 ### Presenter

@@ -7,13 +7,13 @@ slug: optimal-clustering
 image: optimalClustering.png
 categories:
     - NUS
-    - Theory
     - Upcoming
 ---
 
-### Logistic
+### Logistics
 <p>
     <strong> Time:</strong> 2:00-3:00 PM; 5/24/2022<br>
+    Zoom Lecture <br>
 </p>
 
 ### Presenter
