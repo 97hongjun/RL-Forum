@@ -21,7 +21,9 @@ categories:
 </p>
 
 ### Reference
-<a href="url" target="_blank" rel="noopener noreferrer">https://arxiv.org/pdf/2101.09855.pdf</a>
+<p>
+    <a href="url" target="_blank" rel="noopener noreferrer">https://arxiv.org/pdf/2101.09855.pdf</a>
+</p>
 
 ### Bio
 <p>
@@ -30,5 +32,5 @@ categories:
 
 ### Recording
 <p>
-    <a href="https://stanford.zoom.us/rec/play/3H4nNPjycniAayUSk5o6h3z34jO4Qbup411T_xKqxQVTtcBnNs5oA2-h3hwjD0Q2t7sM2nLdtBwEsBRi.Wt5CMVlrHws0D9O3?continueMode=true&_x_zm_rtaid=udQo9uzHR6WuPphcmSqFfg.1635206852126.aab3b197e3cd6df4cab5b980c64072fb&_x_zm_rhtaid=736" target="_blank" rel="noopener noreferrer">Recording</a><br>
+    <a href="https://stanford.zoom.us/rec/play/3H4nNPjycniAayUSk5o6h3z34jO4Qbup411T_xKqxQVTtcBnNs5oA2-h3hwjD0Q2t7sM2nLdtBwEsBRi.Wt5CMVlrHws0D9O3?continueMode=true&_x_zm_rtaid=udQo9uzHR6WuPphcmSqFfg.1635206852126.aab3b197e3cd6df4cab5b980c64072fb&_x_zm_rhtaid=736" target="_blank" rel="noopener noreferrer">Lecture Recording</a><br>
 </p>

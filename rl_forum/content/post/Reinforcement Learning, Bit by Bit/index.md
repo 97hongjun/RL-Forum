@@ -21,7 +21,9 @@ categories:
 </p>
 
 ### Reference
-<a href="url" target="_blank" rel="noopener noreferrer">https://arxiv.org/pdf/2103.04047.pdf</a>
+<p>
+    <a href="url" target="_blank" rel="noopener noreferrer">https://arxiv.org/pdf/2103.04047.pdf</a>
+</p>
 
 ### Bio
 <p>

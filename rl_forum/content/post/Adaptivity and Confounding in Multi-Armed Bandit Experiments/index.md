@@ -27,7 +27,9 @@ categories:
 </p>
 
 ### Reference
-<a href="url" target="_blank" rel="noopener noreferrer">https://arxiv.org/pdf/2202.09036.pdf</a>
+<p>
+    <a href="url" target="_blank" rel="noopener noreferrer">https://arxiv.org/pdf/2202.09036.pdf</a>
+</p>
 
 ### Bio
 <p>
@@ -35,4 +37,6 @@ categories:
 </p>
 
 ### Recording
-<a href="https://www.youtube.com/watch?v=h1yAaJzA5Ao&list=PLv_7iO_xlL0Ks_rnHPbzHaIOHfkOu_hfw&index=44" target="_blank" rel="noopener noreferrer">Lecture Recording</a><br>
+<p>
+    <a href="https://www.youtube.com/watch?v=h1yAaJzA5Ao&list=PLv_7iO_xlL0Ks_rnHPbzHaIOHfkOu_hfw&index=44" target="_blank" rel="noopener noreferrer">Lecture Recording</a><br>
+</p>

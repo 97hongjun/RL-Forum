@@ -38,8 +38,9 @@
     As part of this effort we open-source experiment code.
 &lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/abs/2107.08924&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://arxiv.org/abs/2107.08924&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+    &lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://arxiv.org/abs/2107.08924&lt;/a&gt;
+&lt;/p&gt;
 &lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
 &lt;p&gt;
     Ian is a research scientist at DeepMind in Mountain View, working on the design of efficient agents.
@@ -74,8 +75,9 @@
     This paper considers the problem of online clustering with bandit feedback. A set of arms (or items) can be partitioned into various groups that are unknown. Within each group, the observations associated to each of the arms follow the same distribution with the same mean vector. At each time step, the agent queries or pulls an arm and obtains an independent observation from the distribution it is associated to. Subsequent pulls depend on previous ones as well as the previously obtained samples. The agent&#39;s task is to uncover the underlying partition of the arms with the least number of arm pulls and with a probability of error not exceeding a prescribed constant δ. The problem proposed finds numerous applications from clustering of variants of viruses to online market segmentation. We present an instance-dependent information-theoretic lower bound on the expected sample complexity for this task, and design a computationally efficient and asymptotically optimal algorithm, namely Bandit Online Clustering (BOC). The algorithm includes a novel stopping rule for adaptive sequential testing that circumvents the need to exactly solve any NP-hard weighted clustering problem as its subroutines. We show through extensive simulations on synthetic and real-world datasets that BOC&#39;s performance matches the lower bound asymptotically, and significantly outperforms a non-adaptive baseline algorithm.
 &lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/abs/2202.04294&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://arxiv.org/abs/2202.04294&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+    &lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://arxiv.org/abs/2202.04294&lt;/a&gt;
+&lt;p&gt;
 &lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
 &lt;p&gt;
     Vincent Y. F. Tan received the B.A. and M.Eng. degrees in electrical and information science from Cambridge University in 2005, and the Ph.D. degree in electrical engineering and computer science (EECS) from the Massachusetts Institute of Technology (MIT) in 2011. He is currently a Dean’s Chair Associate Professor with the Department of Electrical and Computer Engineering and the Department of Mathematics, National University of Singapore (NUS). His research interests include information theory, machine learning, and statistical signal processing.
@@ -105,15 +107,17 @@
     Multi-armed bandit algorithms minimize experimentation costs required to converge on optimal behavior. They do so by rapidly adapting experimentation effort away from poorly performing actions as feedback is observed. But this desirable feature makes them sensitive to confounding, which is the primary concern underlying classical randomized controlled trials. We highlight, for instance, that popular bandit algorithms cannot address the problem of identifying the best action when day-of-week effects may influence reward observations. In response, this paper proposes deconfounded Thompson sampling, which makes simple, but critical, modifications to the way Thompson sampling is usually applied. Theoretical guarantees suggest the algorithm strikes a delicate balance between adaptivity and robustness to confounding. It attains asymptotic lower bounds on the number of samples required to confidently identify the best action -- suggesting optimal adaptivity -- but also satisfies strong performance guarantees in the presence of day-of-week effects and delayed observations -- suggesting unusual robustness. At the core of the paper is a new model of contextual bandit experiments in which issues of delayed learning and distribution shift arise organically.
 &lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/pdf/2202.09036.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://arxiv.org/pdf/2202.09036.pdf&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+    &lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://arxiv.org/pdf/2202.09036.pdf&lt;/a&gt;
+&lt;/p&gt;
 &lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
 &lt;p&gt;
     Daniel Russo is an Associate Professor in the Decision, Risk, and Operations division of Columbia Business School. His research focuses on problems at the intersection of sequential decision-making and statistical machine learning. He completed his PhD at Stanford under the supervision of Ben Van Roy.
 &lt;/p&gt;
 &lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=h1yAaJzA5Ao&amp;list=PLv_7iO_xlL0Ks_rnHPbzHaIOHfkOu_hfw&amp;index=44&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Lecture Recording&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
-</description>
+&lt;p&gt;
+    &lt;a href=&#34;https://www.youtube.com/watch?v=h1yAaJzA5Ao&amp;list=PLv_7iO_xlL0Ks_rnHPbzHaIOHfkOu_hfw&amp;index=44&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Lecture Recording&lt;/a&gt;&lt;br&gt;
+&lt;/p&gt;</description>
         </item>
         <item>
         <title>Reinforcement Learning, Bit by Bit</title>
@@ -132,8 +136,9 @@
     Reinforcement learning agents have demonstrated remarkable achievements in simulated environments. Data efficiency poses an impediment to carrying this success over to real environments. The design of data-efficient agents calls for a deeper understanding of information acquisition and representation. We develop concepts and establish a regret bound that together offer principled guidance. The bound sheds light on questions of what information to seek, how to seek that information, and what information to retain. To illustrate concepts, we design simple agents that build on them and present computational results that demonstrate improvements in data efficiency.
 &lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/pdf/2103.04047.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://arxiv.org/pdf/2103.04047.pdf&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+    &lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://arxiv.org/pdf/2103.04047.pdf&lt;/a&gt;
+&lt;/p&gt;
 &lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
 &lt;p&gt;
     Xiuyuan Lu is a research scientist at DeepMind. She is interested in building data-efficient reinforcement learning agents. She obtained her PhD in 2020 from the Department of Management Science and Engineering at Stanford University.
@@ -161,15 +166,16 @@
     Deep model-based reinforcement learning methods have achieved state-of-the-art sample efficiency but we lack a theoretical understanding of them. This talk will first show that convergence to a global maximum requires an exponential number of samples even for a one-layer neural net bandit problem, which is strictly easier than RL. Therefore, we propose to study convergence to local maxima. For both nonlinear bandit and RL, I will present a model-based algorithm, Virtual Ascent with Online Model Learner (ViOL), which provably converges to a local maximum with sample complexity that only depends on the sequential Rademacher complexity of the model class. Our results imply novel global or local regret bounds on several concrete settings such as linear bandit with finite or sparse model class, and two-layer neural net bandit.
 &lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/pdf/2102.04168.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://arxiv.org/pdf/2102.04168.pdf&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+    &lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://arxiv.org/pdf/2102.04168.pdf&lt;/a&gt;
+&lt;/p&gt;
 &lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
 &lt;p&gt;
     Tengyu Ma is an assistant professor of Computer Science and Statistics at Stanford University. He received his Ph.D. from Princeton University and B.E. from Tsinghua University. His research interests include topics in machine learning and algorithms, such as deep learning and its theory, non-convex optimization, deep reinforcement learning, representation learning, and high-dimensional statistics. He is a recipient of NIPS&#39;16 best student paper award, COLT&#39;18 best paper award, ACM Doctoral Dissertation Award Honorable Mention, and Sloan Fellowship.
 &lt;/p&gt;
 &lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
 &lt;p&gt;
-    &lt;a href=&#34;https://stanford.zoom.us/rec/play/iT85r9ttX7iI9YB9VF6yUDbXqF-wBOGRzJbrIKQG6MhFNP3KjFjEol2auX2wyCjRzcur5fFV9ypc1fBA.UAtgiQbKjj40Pw6l?continueMode=true&amp;_x_zm_rtaid=ZP9lLdXYQNKYXQgXq7aQrQ.1618800579957.5a319de73a91a250c868e79e52750756&amp;_x_zm_rhtaid=796&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Recording&lt;/a&gt;&lt;br&gt;
+    &lt;a href=&#34;https://stanford.zoom.us/rec/play/iT85r9ttX7iI9YB9VF6yUDbXqF-wBOGRzJbrIKQG6MhFNP3KjFjEol2auX2wyCjRzcur5fFV9ypc1fBA.UAtgiQbKjj40Pw6l?continueMode=true&amp;_x_zm_rtaid=ZP9lLdXYQNKYXQgXq7aQrQ.1618800579957.5a319de73a91a250c868e79e52750756&amp;_x_zm_rhtaid=796&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Lecture Recording&lt;/a&gt;&lt;br&gt;
 &lt;/p&gt;
 </description>
         </item>
@@ -190,15 +196,16 @@
     I will discuss in this talk a new diffusion-asymptotic analysis for sequentially randomized experiments. Rather than taking sample size n to infinity while keeping the problem parameters fixed, we let the mean signal level scale to the order 1/\sqrt{n} so as to preserve the difficulty of the learning task as n gets large. In this regime, we show that the behavior of a class of methods for sequential experimentation converges to a diffusion limit. This connection enables us to make sharp performance predictions and obtain new insights on the behavior of Thompson sampling. Our diffusion asymptotics also help resolve a discrepancy between the Θ(log(n)) regret predicted by the fixed-parameter, large-sample asymptotics on the one hand, and the Θ(\sqrt{n}) regret from worst-case, finite-sample analysis on the other, suggesting that it is an appropriate asymptotic regime for understanding practical large-scale sequential experiments.
 &lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://arxiv.org/pdf/2101.09855.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://arxiv.org/pdf/2101.09855.pdf&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+    &lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://arxiv.org/pdf/2101.09855.pdf&lt;/a&gt;
+&lt;/p&gt;
 &lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
 &lt;p&gt;
     Kuang Xu is an Associate Professor of Operations, Information and Technology at Stanford Graduate School of Business, and Associate Professor by courtesy with the Electrical Engineering Department, Stanford University. Born in Suzhou, China, he received the B.S. degree in Electrical Engineering (2009) from the University of Illinois at Urbana-Champaign, and the Ph.D. degree in Electrical Engineering and Computer Science (2014) from the Massachusetts Institute of Technology. His research primarily focuses on understanding fundamental properties and design principles of large-scale stochastic systems using tools from probability theory and optimization, with applications in queueing networks, healthcare, privacy and machine learning. He received First Place in the INFORMS George E. Nicholson Student Paper Competition (2011), the Best Paper Award, as well as the Kenneth C. Sevcik Outstanding Student Paper Award at ACM SIGMETRICS (2013), and the ACM SIGMETRICS Rising Star Research Award (2020). He currently serves as an Associate Editor for Operations Research.
 &lt;/p&gt;
 &lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
 &lt;p&gt;
-    &lt;a href=&#34;https://stanford.zoom.us/rec/play/3H4nNPjycniAayUSk5o6h3z34jO4Qbup411T_xKqxQVTtcBnNs5oA2-h3hwjD0Q2t7sM2nLdtBwEsBRi.Wt5CMVlrHws0D9O3?continueMode=true&amp;_x_zm_rtaid=udQo9uzHR6WuPphcmSqFfg.1635206852126.aab3b197e3cd6df4cab5b980c64072fb&amp;_x_zm_rhtaid=736&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Recording&lt;/a&gt;&lt;br&gt;
+    &lt;a href=&#34;https://stanford.zoom.us/rec/play/3H4nNPjycniAayUSk5o6h3z34jO4Qbup411T_xKqxQVTtcBnNs5oA2-h3hwjD0Q2t7sM2nLdtBwEsBRi.Wt5CMVlrHws0D9O3?continueMode=true&amp;_x_zm_rtaid=udQo9uzHR6WuPphcmSqFfg.1635206852126.aab3b197e3cd6df4cab5b980c64072fb&amp;_x_zm_rhtaid=736&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Lecture Recording&lt;/a&gt;&lt;br&gt;
 &lt;/p&gt;
 </description>
         </item>

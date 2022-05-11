@@ -39,7 +39,9 @@ categories:
 </p>
 
 ### Reference
-<a href="url" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2107.08924</a>
+<p>
+    <a href="url" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2107.08924</a>
+</p>
 
 ### Bio
 <p>
