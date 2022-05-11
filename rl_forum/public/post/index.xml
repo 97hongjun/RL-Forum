@@ -6,7 +6,20 @@
     <description>Recent content in Posts on Stanford RL Forum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Epistemic Neural Networks</title>
+      <link>https://97hongjun.github.io/p/epistemic-neural-networks/</link>
+      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://97hongjun.github.io/p/epistemic-neural-networks/</guid>
+      <description>Logistics   Time: 4:00-5:00 PM; Tuesday 5/31/2022
+Hybrid Lecture Locations: Packard 101, Zoom Link to be posted Presenter  Ian Osband
+Research Scientist,
+DeepMind, Mountain View
+Abstract  Effective decision, exploration, and adaptation often require an agent to know what it knows and, also, what it does not know. This capability relies on the quality of joint predictions of labels assigned to multiple inputs. Conventional neural networks lack this capability and, since most research has focused on marginal predictions, this shortcoming has been largely overlooked.</description>
+    </item>
+    
     <item>
       <title>Optimal Clustering with Bandit Feedback</title>
       <link>https://97hongjun.github.io/p/optimal-clustering/</link>
@@ -20,19 +33,6 @@ Deparrtment of Electrical and Computer Engineering
 Department of Mathematics
 National University of Singapore
 Abstract  This paper considers the problem of online clustering with bandit feedback. A set of arms (or items) can be partitioned into various groups that are unknown. Within each group, the observations associated to each of the arms follow the same distribution with the same mean vector.</description>
-    </item>
-    
-    <item>
-      <title>Epistemic Neural Networks</title>
-      <link>https://97hongjun.github.io/p/epistemic-neural-networks/</link>
-      <pubDate>Wed, 18 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://97hongjun.github.io/p/epistemic-neural-networks/</guid>
-      <description>Logistics   Time: 4:00-5:00 PM; 5/18/2022
-Hybrid Lecture Presenter  Ian Osband
-Research Scientist,
-DeepMind, Mountain View
-Abstract  Effective decision, exploration, and adaptation often require an agent to know what it knows and, also, what it does not know. This capability relies on the quality of joint predictions of labels assigned to multiple inputs. Conventional neural networks lack this capability and, since most research has focused on marginal predictions, this shortcoming has been largely overlooked.</description>
     </item>
     
     <item>

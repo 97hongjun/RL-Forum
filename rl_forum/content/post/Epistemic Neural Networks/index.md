@@ -1,7 +1,7 @@
 ---
 title: Epistemic Neural Networks
 description: Ian Osband
-date: 2022-05-18
+date: 2022-05-31
 publishdate: 2022-05-06
 slug: epistemic-neural-networks
 image: enn.jpeg
@@ -12,8 +12,9 @@ categories:
 
 ### Logistics
 <p>
-    <strong> Time:</strong> 4:00-5:00 PM; 5/18/2022<br>
+    <strong> Time:</strong> 4:00-5:00 PM; Tuesday 5/31/2022<br>
     Hybrid Lecture <br>
+    <strong>Locations:</strong> Packard 101, Zoom Link to be posted <br>
 </p>
 
 ### Presenter
@@ -45,7 +46,7 @@ categories:
     Ian is a research scientist at DeepMind in Mountain View, working on the design of efficient agents.
     That means artificial intelligence systems that can learn to perform well in decision problems with a reasonable amount of experience and/or compute.
     Before DeepMind, Ian completed his PhD at Stanford under the guidance of Benjamin Van Roy, studied Maths at Oxford, and had a brief spell working at JPMorgan in credit derivatives.
-    For more information you can check out his website <a href="url" target="_blank" rel="noopener noreferrer">http://iosband.github.io</a>
+    For more information you can check out his website <a href="http://iosband.github.io">http://iosband.github.io</a>
 </p>
 
 ### Recording
