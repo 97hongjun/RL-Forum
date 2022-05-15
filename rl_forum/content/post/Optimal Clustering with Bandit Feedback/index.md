@@ -13,7 +13,7 @@ categories:
 ### Logistics
 <p>
     <strong> Time:</strong> 2:00-3:00 PM; 5/24/2022<br>
-    Zoom Lecture <br>
+    <a href="https://stanford.zoom.us/meeting/register/tJwvf-qhqD8qG9wlCniUWI1YaILdFqRhU4Xn" target="_blank" rel="noopener noreferrer">Zoom Lecture</a><br>
 </p>
 
 ### Presenter
