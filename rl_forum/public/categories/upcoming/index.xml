@@ -20,21 +20,5 @@ DeepMind, Mountain View
 Abstract  Effective decision, exploration, and adaptation often require an agent to know what it knows and, also, what it does not know. This capability relies on the quality of joint predictions of labels assigned to multiple inputs. Conventional neural networks lack this capability and, since most research has focused on marginal predictions, this shortcoming has been largely overlooked.</description>
     </item>
     
-    <item>
-      <title>Optimal Clustering with Bandit Feedback</title>
-      <link>https://97hongjun.github.io/p/optimal-clustering/</link>
-      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://97hongjun.github.io/p/optimal-clustering/</guid>
-      <description>Logistics   Time: 2:00-3:00 PM; 5/24/2022
-Zoom Lecture
-Presenter  Vincent Y. F. Tan
-Associate Professor and Dean&#39;s Chair
-Deparrtment of Electrical and Computer Engineering
-Department of Mathematics
-National University of Singapore
-Abstract  This paper considers the problem of online clustering with bandit feedback. A set of arms (or items) can be partitioned into various groups that are unknown. Within each group, the observations associated to each of the arms follow the same distribution with the same mean vector.</description>
-    </item>
-    
   </channel>
 </rss>

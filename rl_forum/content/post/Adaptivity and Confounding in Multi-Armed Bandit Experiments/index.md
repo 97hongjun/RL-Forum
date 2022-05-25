@@ -5,7 +5,6 @@ date: 2022-03-03
 slug: adaptive-confounding-bandit
 image: adaptConfoundMAB.png
 categories:
-    - Columbia
 ---
 
 ### Logistics

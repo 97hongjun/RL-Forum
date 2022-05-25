@@ -7,7 +7,6 @@ slug: optimal-clustering
 image: optimalClustering.png
 categories:
     - NUS
-    - Upcoming
 ---
 
 ### Logistics
