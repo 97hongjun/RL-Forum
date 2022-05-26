@@ -12,7 +12,7 @@ categories:
 ### Logistics
 <p>
     <strong> Time:</strong> 2:00-3:00 PM; 5/24/2022<br>
-    <a href="https://stanford.zoom.us/meeting/register/tJwvf-qhqD8qG9wlCniUWI1YaILdFqRhU4Xn" target="_blank" rel="noopener noreferrer">Zoom Lecture</a><br>
+    <a href="https://stanford.zoom.us/meeting/register/tJwvf-qhqD8qG9wlCniUWI1YaILdFqRhU4Xn" target="_blank" rel="noopener noreferrer">Zoom Link</a><br>
 </p>
 
 ### Presenter
@@ -40,3 +40,6 @@ categories:
 </p>
 
 ### Recording
+<p>
+    <a href="https://www.youtube.com/watch?v=2ALpGsAE2JE" target="_blank" rel="noopener noreferrer">Lecture Recording</a><br>
+</p>

@@ -14,7 +14,8 @@
       
       <guid>https://97hongjun.github.io/p/epistemic-neural-networks/</guid>
       <description>Logistics   Time: 4:00-5:00 PM; Tuesday 5/31/2022
-Hybrid Lecture Locations: Packard 101, Zoom Link to be posted Presenter  Ian Osband
+Hybrid Lecture Locations: Packard 101, Zoom Link
+Presenter  Ian Osband
 Research Scientist,
 DeepMind, Mountain View
 Abstract  Effective decision, exploration, and adaptation often require an agent to know what it knows and, also, what it does not know. This capability relies on the quality of joint predictions of labels assigned to multiple inputs. Conventional neural networks lack this capability and, since most research has focused on marginal predictions, this shortcoming has been largely overlooked.</description>
