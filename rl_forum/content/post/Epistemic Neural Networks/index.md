@@ -7,7 +7,6 @@ slug: epistemic-neural-networks
 image: enn.jpeg
 categories:
     - Deepmind
-    - Upcoming
 ---
 
 ### Logistics
@@ -52,3 +51,6 @@ categories:
 </p>
 
 ### Recording
+<p>
+    <a href="https://www.youtube.com/watch?v=j8an0dKcX4A" target="_blank" rel="noopener noreferrer">Lecture Recording</a><br>
+</p>
