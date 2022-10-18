@@ -6,7 +6,41 @@
         <description>Recent content on Stanford RL Forum</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 31 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 27 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Towards Instance-Optimal Algorithms for Reinforcement Learning</title>
+        <link>https://97hongjun.github.io/p/instance-optimal-rl/</link>
+        <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://97hongjun.github.io/p/instance-optimal-rl/</guid>
+        <description>&lt;img src="https://97hongjun.github.io/p/instance-optimal-rl/iorl.png" alt="Featured image of post Towards Instance-Optimal Algorithms for Reinforcement Learning" /&gt;&lt;h3 id=&#34;logistics&#34;&gt;Logistics&lt;/h3&gt;
+&lt;p&gt;
+    &lt;strong&gt; Time:&lt;/strong&gt; 4:00-5:00 PM; Thursday 10/27/2022&lt;br&gt;
+    In-Person Lecture &lt;br&gt;
+    &lt;strong&gt;Location:&lt;/strong&gt; Packard 101&lt;br&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;presenter&#34;&gt;Presenter&lt;/h3&gt;
+&lt;p&gt;
+    Kevin Jamieson&lt;br&gt;
+    Assistant Professor,&lt;br&gt;
+    University of Washington&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;
+    The theory of reinforcement learning has focused on two fundamental problems: achieving low regret, and identifying epsilon-optimal policies. While in multi-armed bandits there exists a single algorithm that is instance-optimal for both, I will show in this talk that for tabular MDPs this is no longer possible—there exists a fundamental tradeoff between achieving low regret and identifying an epsilon-optimal policy at the instance-optimal rate. That is, popular algorithms that exploit optimism cannot be instance optimal. I will then present an algorithm that achieves the best known instance-dependent sample complexity for PAC tabular reinforcement learning which explicitly accounts for the sub-optimality gaps and attainable state visitation distributions in the underlying MDP. I will then discuss our recent work in the more general linear MDP setting where we have proposed an algorithm that is qualitatively very different but nevertheless achieves an instance-dependent sample complexity.
+&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
+&lt;p&gt;
+    Kevin Jamieson is an Assistant Professor in the Paul G. Allen School of Computer Science &amp; Engineering at the University of Washington. His research explores how to leverage already-collected data to inform what future measurements to make next, in a closed loop. Jamieson has shown that such active learning can substantially reduce the sample complexity of learning in scenarios like multi-armed bandits, reinforcement learning, regression, and multi-class classification. He received his Ph.D. from the University of Wisconsin - Madison under the advisement of Robert Nowak, and was a post-doctoral researcher at UC Berkeley with Benjamin Recht. Jamieson&#39;s work has been recognized by an NSF CAREER award and Amazon Faculty Research award.
+&lt;/p&gt;
+&lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Epistemic Neural Networks</title>
         <link>https://97hongjun.github.io/p/epistemic-neural-networks/</link>
         <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>

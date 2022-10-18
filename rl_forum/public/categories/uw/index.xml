@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Upcoming on Stanford RL Forum</title>
-    <link>https://97hongjun.github.io/categories/upcoming/</link>
-    <description>Recent content in Upcoming on Stanford RL Forum</description>
+    <title>UW on Stanford RL Forum</title>
+    <link>https://97hongjun.github.io/categories/uw/</link>
+    <description>Recent content in UW on Stanford RL Forum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/categories/upcoming/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/categories/uw/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Towards Instance-Optimal Algorithms for Reinforcement Learning</title>
       <link>https://97hongjun.github.io/p/instance-optimal-rl/</link>
