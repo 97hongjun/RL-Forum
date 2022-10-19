@@ -13,8 +13,9 @@ categories:
 ### Logistics
 <p>
     <strong> Time:</strong> 4:00-5:00 PM; Thursday 10/27/2022<br>
-    In-Person Lecture <br>
-    <strong>Location:</strong> Packard 101<br><br>
+    Hybrid Lecture <br>
+    <strong>Locations:</strong> Packard 101 <a href="https://stanford.zoom.us/j/95905740625?pwd=dHcyVzlUems0MzVuZ0N6emYzOGl6UT09" target="_blank" rel="noopener noreferrer">Zoom Link</a>
+    <br><br>
 </p>
 
 ### Presenter

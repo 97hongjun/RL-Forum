@@ -14,8 +14,7 @@
       
       <guid>https://97hongjun.github.io/p/instance-optimal-rl/</guid>
       <description>Logistics   Time: 4:00-5:00 PM; Thursday 10/27/2022
-In-Person Lecture Location: Packard 101
-Presenter  Kevin Jamieson
+Hybrid Lecture Locations: Packard 101 Zoom Link Presenter  Kevin Jamieson
 Assistant Professor,
 University of Washington
 Abstract  The theory of reinforcement learning has focused on two fundamental problems: achieving low regret, and identifying epsilon-optimal policies. While in multi-armed bandits there exists a single algorithm that is instance-optimal for both, I will show in this talk that for tabular MDPs this is no longer possible—there exists a fundamental tradeoff between achieving low regret and identifying an epsilon-optimal policy at the instance-optimal rate.</description>
