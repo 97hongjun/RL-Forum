@@ -6,7 +6,42 @@
         <description>Recent content on Stanford RL Forum</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 27 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Understanding Information-Directed Sampling, When and How to Use It?</title>
+        <link>https://97hongjun.github.io/p/understand_ids/</link>
+        <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://97hongjun.github.io/p/understand_ids/</guid>
+        <description>&lt;img src="https://97hongjun.github.io/p/understand_ids/info_ratio.png" alt="Featured image of post Understanding Information-Directed Sampling, When and How to Use It?" /&gt;&lt;h3 id=&#34;logistics&#34;&gt;Logistics&lt;/h3&gt;
+&lt;p&gt;
+    &lt;strong&gt; Time:&lt;/strong&gt; 4:00-5:00 PM; Wednesday 11/09/2022&lt;br&gt;
+    Hybrid Lecture &lt;br&gt;
+    &lt;strong&gt;Locations:&lt;/strong&gt; Packard 202 &lt;a href=&#34;https://stanford.zoom.us/j/96783326250?pwd=NG9JS0I3U2psVXQ3SXNVSEFCK3V6UT09&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Zoom Link&lt;/a&gt;
+    &lt;br&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;presenter&#34;&gt;Presenter&lt;/h3&gt;
+&lt;p&gt;
+    Botao Hao&lt;br&gt;
+    Research Scientist,&lt;br&gt;
+    Deepmind, Mountain View&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;
+    Information-directed sampling (IDS) has revealed its potential as a data-efficient algorithm for reinforcement learning. However, when and how to use this design principle in the right way remains open. I will discuss two questions: 1. When can IDS outperform optimism-based algorithms? 2. What is the right form of information ratio to optimize for reinforcement learning? To answer the first question, I will use sparse linear bandits as a showcase and prove that IDS can optimally address the information-regret trade-off while UCB and Thompson sampling fail. To answer the second question, I will derive prior-free Bayesian regret bounds for vanilla-IDS that maximizes the ratio form of the information ratio. Furthermore, I will discuss a computationally-efficient regularized-IDS that maximizes an additive form of the information ratio and show that it enjoys the same regret bound as vanilla-IDS.
+&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
+&lt;p&gt;
+    Botao Hao is a research scientist at Deepmind. Previously, he was a postdoc in the Department of Electrical Engineering at Princeton University. He received his Ph.D. from the Department of Statistics at Purdue University. 
+&lt;/p&gt;
+&lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Towards Instance-Optimal Algorithms for Reinforcement Learning</title>
         <link>https://97hongjun.github.io/p/instance-optimal-rl/</link>
         <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
@@ -38,6 +73,7 @@
 &lt;/p&gt;
 &lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
 &lt;p&gt;
+    &lt;a href=&#34;https://www.youtube.com/watch?v=8hTBRD_k5wo&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;Lecture Recording&lt;/a&gt;&lt;br&gt;
 &lt;/p&gt;
 </description>
         </item>

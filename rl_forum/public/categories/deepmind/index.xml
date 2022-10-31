@@ -6,7 +6,20 @@
     <description>Recent content in Deepmind on Stanford RL Forum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/categories/deepmind/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/categories/deepmind/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Understanding Information-Directed Sampling, When and How to Use It?</title>
+      <link>https://97hongjun.github.io/p/understand_ids/</link>
+      <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://97hongjun.github.io/p/understand_ids/</guid>
+      <description>Logistics   Time: 4:00-5:00 PM; Wednesday 11/09/2022
+Hybrid Lecture Locations: Packard 202 Zoom Link Presenter  Botao Hao
+Research Scientist,
+Deepmind, Mountain View
+Abstract  Information-directed sampling (IDS) has revealed its potential as a data-efficient algorithm for reinforcement learning. However, when and how to use this design principle in the right way remains open. I will discuss two questions: 1. When can IDS outperform optimism-based algorithms? 2. What is the right form of information ratio to optimize for reinforcement learning?</description>
+    </item>
+    
     <item>
       <title>Epistemic Neural Networks</title>
       <link>https://97hongjun.github.io/p/epistemic-neural-networks/</link>

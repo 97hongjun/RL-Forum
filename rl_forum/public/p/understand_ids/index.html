@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Xiuyuan (Lucy) Lu'><title>Reinforcement Learning, Bit by Bit</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Botao Hao'><title>Understanding Information-Directed Sampling, When and How to Use It?</title>
 
-<link rel='canonical' href='https://97hongjun.github.io/p/rl-bit-by-bit/'>
+<link rel='canonical' href='https://97hongjun.github.io/p/understand_ids/'>
 
-<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Reinforcement Learning, Bit by Bit'>
-<meta property='og:description' content='Xiuyuan (Lucy) Lu'>
-<meta property='og:url' content='https://97hongjun.github.io/p/rl-bit-by-bit/'>
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Understanding Information-Directed Sampling, When and How to Use It?'>
+<meta property='og:description' content='Botao Hao'>
+<meta property='og:url' content='https://97hongjun.github.io/p/understand_ids/'>
 <meta property='og:site_name' content='Stanford RL Forum'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2021-04-20T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2021-04-20T00:00:00&#43;00:00'/><meta property='og:image' content='https://97hongjun.github.io/p/rl-bit-by-bit/rlBitByBit.png' />
-<meta name="twitter:title" content="Reinforcement Learning, Bit by Bit">
-<meta name="twitter:description" content="Xiuyuan (Lucy) Lu"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://97hongjun.github.io/p/rl-bit-by-bit/rlBitByBit.png' />
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2022-11-09T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-11-09T00:00:00&#43;00:00'/><meta property='og:image' content='https://97hongjun.github.io/p/understand_ids/info_ratio.png' />
+<meta name="twitter:title" content="Understanding Information-Directed Sampling, When and How to Use It?">
+<meta name="twitter:description" content="Botao Hao"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://97hongjun.github.io/p/understand_ids/info_ratio.png' />
     </head>
     <body class="
     article-page 
@@ -199,13 +199,13 @@
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/rl-bit-by-bit/">
-                <img src="/p/rl-bit-by-bit/rlBitByBit_hu144592e2756b5495c68e6b8ed972c0f0_57185_800x0_resize_box_3.png"
-                        srcset="/p/rl-bit-by-bit/rlBitByBit_hu144592e2756b5495c68e6b8ed972c0f0_57185_800x0_resize_box_3.png 800w, /p/rl-bit-by-bit/rlBitByBit_hu144592e2756b5495c68e6b8ed972c0f0_57185_1600x0_resize_box_3.png 1600w"
+            <a href="/p/understand_ids/">
+                <img src="/p/understand_ids/info_ratio_hu92fa1080602bcb4ff85bef20f589650f_15089_800x0_resize_box_3.png"
+                        srcset="/p/understand_ids/info_ratio_hu92fa1080602bcb4ff85bef20f589650f_15089_800x0_resize_box_3.png 800w, /p/understand_ids/info_ratio_hu92fa1080602bcb4ff85bef20f589650f_15089_1600x0_resize_box_3.png 1600w"
                         width="800" 
-                        height="292" 
+                        height="249" 
                         loading="lazy"
-                        alt="Featured image of post Reinforcement Learning, Bit by Bit" />
+                        alt="Featured image of post Understanding Information-Directed Sampling, When and How to Use It?" />
                 
             </a>
         </div>
@@ -219,16 +219,20 @@
                 Deepmind
             </a>
         
+            <a href="/categories/upcoming/" >
+                Upcoming
+            </a>
+        
     </header>
     
 
     <h2 class="article-title">
-        <a href="/p/rl-bit-by-bit/">Reinforcement Learning, Bit by Bit</a>
+        <a href="/p/understand_ids/">Understanding Information-Directed Sampling, When and How to Use It?</a>
     </h2>
 
     
     <h3 class="article-subtitle">
-        Xiuyuan (Lucy) Lu
+        Botao Hao
     </h3>
     
 
@@ -245,7 +249,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Apr 20, 2021</time>
+                <time class="article-time--published">Nov 09, 2022</time>
             </div>
         
 
@@ -256,29 +260,34 @@
 </header>
 
     <section class="article-content">
-    <h3 id="presenter">Presenter</h3>
+    <h3 id="logistics">Logistics</h3>
 <p>
-    Xiuyuan (Lucy) Lu<br>
+    <strong> Time:</strong> 4:00-5:00 PM; Wednesday 11/09/2022<br>
+    Hybrid Lecture <br>
+    <strong>Locations:</strong> Packard 202 <a href="https://stanford.zoom.us/j/96783326250?pwd=NG9JS0I3U2psVXQ3SXNVSEFCK3V6UT09" target="_blank" rel="noopener noreferrer">Zoom Link</a>
+    <br><br>
+</p>
+<h3 id="presenter">Presenter</h3>
+<p>
+    Botao Hao<br>
     Research Scientist,<br>
-    DeepMind, Mountain View<br>
+    Deepmind, Mountain View<br>
 </p>
 <h3 id="abstract">Abstract</h3>
 <p>
-    Reinforcement learning agents have demonstrated remarkable achievements in simulated environments. Data efficiency poses an impediment to carrying this success over to real environments. The design of data-efficient agents calls for a deeper understanding of information acquisition and representation. We develop concepts and establish a regret bound that together offer principled guidance. The bound sheds light on questions of what information to seek, how to seek that information, and what information to retain. To illustrate concepts, we design simple agents that build on them and present computational results that demonstrate improvements in data efficiency.
+    Information-directed sampling (IDS) has revealed its potential as a data-efficient algorithm for reinforcement learning. However, when and how to use this design principle in the right way remains open. I will discuss two questions: 1. When can IDS outperform optimism-based algorithms? 2. What is the right form of information ratio to optimize for reinforcement learning? To answer the first question, I will use sparse linear bandits as a showcase and prove that IDS can optimally address the information-regret trade-off while UCB and Thompson sampling fail. To answer the second question, I will derive prior-free Bayesian regret bounds for vanilla-IDS that maximizes the ratio form of the information ratio. Furthermore, I will discuss a computationally-efficient regularized-IDS that maximizes an additive form of the information ratio and show that it enjoys the same regret bound as vanilla-IDS.
 </p>
 <h3 id="reference">Reference</h3>
 <p>
-    <a href="url" target="_blank" rel="noopener noreferrer">https://arxiv.org/pdf/2103.04047.pdf</a>
 </p>
 <h3 id="bio">Bio</h3>
 <p>
-    Xiuyuan Lu is a research scientist at DeepMind. She is interested in building data-efficient reinforcement learning agents. She obtained her PhD in 2020 from the Department of Management Science and Engineering at Stanford University.
+    Botao Hao is a research scientist at Deepmind. Previously, he was a postdoc in the Department of Electrical Engineering at Princeton University. He received his Ph.D. from the Department of Statistics at Purdue University. 
 </p>
 <h3 id="recording">Recording</h3>
 <p>
-    <a href="https://stanford.zoom.us/rec/play/m9BP7430B8jcl6iFRomPWjcXfMzjSXihSXlOcYLCUWP-9oYexMWU1Xb8Sfu1LSyEX0196LsWcmS3dSmq.EloRFp80gdQZDq-1?continueMode=true&_x_zm_rtaid=KV-j0mABQLqkJR5QUbWjSA.1618942041710.c4629d090448fa38d57f34556ef7427e&_x_zm_rhtaid=389" target="_blank" rel="noopener noreferrer">Lecture 1 Recording</a><br>
-    <a href="https://stanford.zoom.us/rec/play/kfMpDYfTWqnOZEe656ISqWhSAbyWiGUKZA1lAHliRCrqfhl_6biL3xH10YDkp3W9N-k_ElChym9EO8Nn.j8ylads97aC1izOZ?continueMode=true&_x_zm_rtaid=3Yguu6A8QVK-2yxQVJAMSA.1635206758825.17a5ebec65255ebeea1580a6ac77476c&_x_zm_rhtaid=487" target="_blank" rel="noopener noreferrer">Lecture 2 Recording</a>
 </p>
+
 </section>
 
 
@@ -300,28 +309,6 @@
                 
                     
 <article class="has-image">
-    <a href="/p/understand_ids/">
-        
-        
-            <div class="article-image">
-                <img src="/p/understand_ids/info_ratio.b68d786a35ae5aa456f8d67d6d176002_hu92fa1080602bcb4ff85bef20f589650f_15089_250x150_fill_box_smart1_3.png" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy" 
-                        data-key="understand_ids" 
-                        data-hash="md5-to14ajWuWqRW&#43;NZ9bRdgAg==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Understanding Information-Directed Sampling, When and How to Use It?</h2>
-        </div>
-    </a>
-</article>
-                
-                    
-<article class="has-image">
     <a href="/p/epistemic-neural-networks/">
         
         
@@ -338,6 +325,28 @@
 
         <div class="article-details">
             <h2 class="article-title">Epistemic Neural Networks</h2>
+        </div>
+    </a>
+</article>
+                
+                    
+<article class="has-image">
+    <a href="/p/rl-bit-by-bit/">
+        
+        
+            <div class="article-image">
+                <img src="/p/rl-bit-by-bit/rlBitByBit.1d64a4a7539bc52f607315fa87c03d8e_hu144592e2756b5495c68e6b8ed972c0f0_57185_250x150_fill_box_smart1_3.png" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy" 
+                        data-key="rl-bit-by-bit" 
+                        data-hash="md5-HWSkp1ObxS9gcxX6h8A9jg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Reinforcement Learning, Bit by Bit</h2>
         </div>
     </a>
 </article>

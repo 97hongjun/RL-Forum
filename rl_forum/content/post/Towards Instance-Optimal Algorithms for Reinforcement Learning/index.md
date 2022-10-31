@@ -7,7 +7,6 @@ slug: instance-optimal-rl
 image: iorl.png
 categories:
     - UW
-    - Upcoming
 ---
 
 ### Logistics
@@ -41,4 +40,5 @@ categories:
 
 ### Recording
 <p>
+    <a href="https://www.youtube.com/watch?v=8hTBRD_k5wo" target="_blank" rel="noopener noreferrer">Lecture Recording</a><br>
 </p>
