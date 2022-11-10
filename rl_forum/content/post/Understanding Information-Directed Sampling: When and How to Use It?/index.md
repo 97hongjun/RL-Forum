@@ -7,7 +7,6 @@ slug: understand_ids
 image: info_ratio.png
 categories:
     - Deepmind
-    - Upcoming
 ---
 
 ### Logistics
