@@ -41,4 +41,5 @@ categories:
 
 ### Recording
 <p>
+    <a href="https://www.youtube.com/watch?v=YrgOFV7fPcE" target="_blank" rel="noopener noreferrer">Lecture Recording</a><br>
 </p>
