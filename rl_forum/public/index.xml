@@ -6,7 +6,51 @@
         <description>Recent content on Stanford RL Forum</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 09 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 17 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Insights into Intelligence</title>
+        <link>https://97hongjun.github.io/p/insights-intelligence/</link>
+        <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://97hongjun.github.io/p/insights-intelligence/</guid>
+        <description>&lt;img src="https://97hongjun.github.io/p/insights-intelligence/sutton_banner.jpeg" alt="Featured image of post Insights into Intelligence" /&gt;&lt;h3 id=&#34;logistics&#34;&gt;Logistics&lt;/h3&gt;
+&lt;p&gt;
+    &lt;strong&gt; Time:&lt;/strong&gt; 3:00-4:00 PM; Friday 3/17/2023&lt;br&gt;
+    Hybrid Lecture &lt;br&gt;
+    &lt;strong&gt;Locations:&lt;/strong&gt; Hewlet 200, &lt;br&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;presenter&#34;&gt;Presenter&lt;/h3&gt;
+&lt;p&gt;
+    Rich Sutton&lt;br&gt;
+    Professor,&lt;br&gt;
+    Unversity of Alberta&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;
+    For thousands of years, great philosophers, and later, great scientists, have sought to understand intelligence and thereby better understand themselves. As Richard Feynman said “What I cannot create, I do not understand”, so now as we have begun to create intelligence in machines, we might expect to have gained a greater understanding of it. Has this happened? When I step back, looking past the hype and noise, I do feel that I have gained significant insights into intelligence, summarized below in bullet points. Some of these you may see as obviously true, others as unproven, and still others as simply wrong. Some are not claims at all, but simply definitions (though still arguably insights). I offer them in the spirit of openness and provocation.
+    Intelligence is not the ability to mimic people, but rather the ability to achieve goals
+    Goals are well formulated as maximizing an externally received number (reward)
+    Intelligence is the domain-independent part of the ability to achieve goals
+    The world is generally much bigger and more complex than the intelligent agent
+    Accordingly, the agent’s computational resources, however great, are never enough
+    The above properties of the problem of intelligence require solutions in which the agent is divided into four parts, all learned: perception (state construction), reactive policy, value function, and state-transition model. Similar separations appear in many disparate fields
+    The agent further shapes its higher-level cognition by posing subproblems for itself
+    Off-policy learning and temporal abstraction are essential ambitions
+    In this talk I will explain some of these purported insights and assess their accuracy, significance, and implications.
+&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
+&lt;p&gt;
+    Richard S. Sutton is a professor in the Department of Computing Science at the University of Alberta and a fellow of the Royal Society of London, the Royal Society of Canada, the Association for the Advancement of Artificial Intelligence, the Alberta Machine Intelligence Institute (Amii), and CIFAR. He received a PhD in computer science from the University of Massachusetts in 1984 and a BA in psychology from Stanford University in 1978. Prior to joining the University of Alberta in 2003, he worked in industry at AT&amp;T Labs and GTE Labs, and in academia at the University of Massachusetts. He helped found DeepMind Alberta in 2017 and worked there until its dissolution in 2023. At the University of Alberta, Sutton founded the Reinforcement Learning and Artificial Intelligence Lab, which now consists of ten principal investigators and about 100 people altogether.
+    Sutton&#39;s research interests center on the learning problems facing a decision-making agent interacting with its environment, which he sees as central to intelligence. He has additional interests in animal learning psychology, in connectionist networks, and generally in systems that continually improve their representations and models of the world. He is co-author of the textbook Reinforcement Learning: An Introduction. His scientific publications have been cited more than 100,000 times. He is also a libertarian, a chess player, and a cancer survivor.&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Understanding Information-Directed Sampling, When and How to Use It?</title>
         <link>https://97hongjun.github.io/p/understand_ids/</link>
         <pubDate>Wed, 09 Nov 2022 00:00:00 +0000</pubDate>
