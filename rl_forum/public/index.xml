@@ -12,7 +12,7 @@
         <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
         
         <guid>https://97hongjun.github.io/p/insights-intelligence/</guid>
-        <description>&lt;img src="https://97hongjun.github.io/p/insights-intelligence/sutton_banner.jpeg" alt="Featured image of post Insights into Intelligence" /&gt;&lt;h3 id=&#34;logistics&#34;&gt;Logistics&lt;/h3&gt;
+        <description>&lt;img src="https://97hongjun.github.io/p/insights-intelligence/sutton_banner.svg" alt="Featured image of post Insights into Intelligence" /&gt;&lt;h3 id=&#34;logistics&#34;&gt;Logistics&lt;/h3&gt;
 &lt;p&gt;
     &lt;strong&gt; Time:&lt;/strong&gt; 3:00-4:00 PM; Friday 3/17/2023&lt;br&gt;
     Hybrid Lecture &lt;br&gt;
@@ -26,15 +26,18 @@
 &lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;
-    For thousands of years, great philosophers, and later, great scientists, have sought to understand intelligence and thereby better understand themselves. As Richard Feynman said “What I cannot create, I do not understand”, so now as we have begun to create intelligence in machines, we might expect to have gained a greater understanding of it. Has this happened? When I step back, looking past the hype and noise, I do feel that I have gained significant insights into intelligence, summarized below in bullet points. Some of these you may see as obviously true, others as unproven, and still others as simply wrong. Some are not claims at all, but simply definitions (though still arguably insights). I offer them in the spirit of openness and provocation.
-    Intelligence is not the ability to mimic people, but rather the ability to achieve goals
-    Goals are well formulated as maximizing an externally received number (reward)
-    Intelligence is the domain-independent part of the ability to achieve goals
-    The world is generally much bigger and more complex than the intelligent agent
-    Accordingly, the agent’s computational resources, however great, are never enough
-    The above properties of the problem of intelligence require solutions in which the agent is divided into four parts, all learned: perception (state construction), reactive policy, value function, and state-transition model. Similar separations appear in many disparate fields
-    The agent further shapes its higher-level cognition by posing subproblems for itself
-    Off-policy learning and temporal abstraction are essential ambitions
+    For thousands of years, great philosophers, and later, great scientists, have sought to understand intelligence and thereby better understand themselves. As Richard Feynman said “What I cannot create, I do not understand”, so now as we have begun to create intelligence in machines, we might expect to have gained a greater understanding of it. Has this happened? When I step back, looking past the hype and noise, I do feel that I have gained significant insights into intelligence, summarized below in bullet points. Some of these you may see as obviously true, others as unproven, and still others as simply wrong. Some are not claims at all, but simply definitions (though still arguably insights). I offer them in the spirit of openness and provocation:
+    &lt;ul style=&#34;margin-left: 40px;&#34;&gt;
+        &lt;li&gt;Intelligence is not the ability to mimic people, but rather the ability to achieve goals&lt;/li&gt;
+        &lt;li&gt;Goals are well formulated as maximizing an externally received number (reward)&lt;/li&gt;
+        &lt;li&gt;Intelligence is the domain-independent part of the ability to achieve goals&lt;/li&gt;
+        &lt;li&gt;The world is generally much bigger and more complex than the intelligent agent&lt;/li&gt;
+        &lt;li&gt;Accordingly, the agent’s computational resources, however great, are never enough&lt;/li&gt;
+        &lt;li&gt;The world is generally much bigger and more complex than the intelligent agent&lt;/li&gt;
+        &lt;li&gt;The above properties of the problem of intelligence require solutions in which the agent is divided into four parts, all learned: perception (state construction), reactive policy, value function, and state-transition model. Similar separations appear in many disparate fields&lt;/li&gt;
+        &lt;li&gt;The agent further shapes its higher-level cognition by posing subproblems for itself&lt;/li&gt;
+        &lt;li&gt;Off-policy learning and temporal abstraction are essential ambitions&lt;/li&gt;
+    &lt;/ul&gt;
     In this talk I will explain some of these purported insights and assess their accuracy, significance, and implications.
 &lt;/p&gt;
 &lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;

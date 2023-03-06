@@ -4,7 +4,7 @@ description: Rich Sutton
 date: 2023-03-17
 publishdate: 2022-05-06
 slug: insights-intelligence
-image: sutton_banner.jpeg
+image: sutton_banner.svg
 categories:
     - Alberta
     - Upcoming
@@ -26,15 +26,18 @@ categories:
 
 ### Abstract
 <p>
-    For thousands of years, great philosophers, and later, great scientists, have sought to understand intelligence and thereby better understand themselves. As Richard Feynman said “What I cannot create, I do not understand”, so now as we have begun to create intelligence in machines, we might expect to have gained a greater understanding of it. Has this happened? When I step back, looking past the hype and noise, I do feel that I have gained significant insights into intelligence, summarized below in bullet points. Some of these you may see as obviously true, others as unproven, and still others as simply wrong. Some are not claims at all, but simply definitions (though still arguably insights). I offer them in the spirit of openness and provocation.
-    Intelligence is not the ability to mimic people, but rather the ability to achieve goals
-    Goals are well formulated as maximizing an externally received number (reward)
-    Intelligence is the domain-independent part of the ability to achieve goals
-    The world is generally much bigger and more complex than the intelligent agent
-    Accordingly, the agent’s computational resources, however great, are never enough
-    The above properties of the problem of intelligence require solutions in which the agent is divided into four parts, all learned: perception (state construction), reactive policy, value function, and state-transition model. Similar separations appear in many disparate fields
-    The agent further shapes its higher-level cognition by posing subproblems for itself
-    Off-policy learning and temporal abstraction are essential ambitions
+    For thousands of years, great philosophers, and later, great scientists, have sought to understand intelligence and thereby better understand themselves. As Richard Feynman said “What I cannot create, I do not understand”, so now as we have begun to create intelligence in machines, we might expect to have gained a greater understanding of it. Has this happened? When I step back, looking past the hype and noise, I do feel that I have gained significant insights into intelligence, summarized below in bullet points. Some of these you may see as obviously true, others as unproven, and still others as simply wrong. Some are not claims at all, but simply definitions (though still arguably insights). I offer them in the spirit of openness and provocation:
+    <ul style="margin-left: 40px;">
+        <li>Intelligence is not the ability to mimic people, but rather the ability to achieve goals</li>
+        <li>Goals are well formulated as maximizing an externally received number (reward)</li>
+        <li>Intelligence is the domain-independent part of the ability to achieve goals</li>
+        <li>The world is generally much bigger and more complex than the intelligent agent</li>
+        <li>Accordingly, the agent’s computational resources, however great, are never enough</li>
+        <li>The world is generally much bigger and more complex than the intelligent agent</li>
+        <li>The above properties of the problem of intelligence require solutions in which the agent is divided into four parts, all learned: perception (state construction), reactive policy, value function, and state-transition model. Similar separations appear in many disparate fields</li>
+        <li>The agent further shapes its higher-level cognition by posing subproblems for itself</li>
+        <li>Off-policy learning and temporal abstraction are essential ambitions</li>
+    </ul>
     In this talk I will explain some of these purported insights and assess their accuracy, significance, and implications.
 </p>
 
