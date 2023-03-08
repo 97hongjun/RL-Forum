@@ -13,8 +13,7 @@ categories:
 ### Logistics
 <p>
     <strong> Time:</strong> 3:00-4:00 PM; Friday 3/17/2023<br>
-    Hybrid Lecture <br>
-    <strong>Locations:</strong> Hewlet 200, <br><br>
+    <strong>Location:</strong> Hewlet 200 <br><br>
 </p>
 
 ### Presenter
