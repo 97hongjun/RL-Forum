@@ -32,7 +32,6 @@
         &lt;li&gt;Intelligence is the domain-independent part of the ability to achieve goals&lt;/li&gt;
         &lt;li&gt;The world is generally much bigger and more complex than the intelligent agent&lt;/li&gt;
         &lt;li&gt;Accordingly, the agent’s computational resources, however great, are never enough&lt;/li&gt;
-        &lt;li&gt;The world is generally much bigger and more complex than the intelligent agent&lt;/li&gt;
         &lt;li&gt;The above properties of the problem of intelligence require solutions in which the agent is divided into four parts, all learned: perception (state construction), reactive policy, value function, and state-transition model. Similar separations appear in many disparate fields&lt;/li&gt;
         &lt;li&gt;The agent further shapes its higher-level cognition by posing subproblems for itself&lt;/li&gt;
         &lt;li&gt;Off-policy learning and temporal abstraction are essential ambitions&lt;/li&gt;
