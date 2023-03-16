@@ -12,8 +12,8 @@ categories:
 
 ### Logistics
 <p>
-    <strong> Time:</strong> 3:00-4:00 PM; Friday 3/17/2023<br>
-    <strong>Location:</strong> Hewlet 200 <br><br>
+    <strong> Time:</strong> 3:10-4:10 PM; Friday 3/17/2023<br>
+    <strong>Location:</strong> Hewlet 201 <br><br>
 </p>
 
 ### Presenter
