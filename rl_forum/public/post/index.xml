@@ -6,7 +6,20 @@
     <description>Recent content in Posts on Stanford RL Forum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reinforcement Learning from Static Datasets Algorithms, Analysis and Applications</title>
+      <link>https://97hongjun.github.io/p/rl-static-data/</link>
+      <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://97hongjun.github.io/p/rl-static-data/</guid>
+      <description>Logistics   Time: 4:30-5:30 PM; 4/26/2022
+ Location: TBD Presenter  Aviral Kumar
+PhD Student,
+UC Berkeley
+Abstract  Typically, reinforcement learning (RL) methods rely on trial-and-error interaction with the environment from scratch to discover effective behaviors. While this sort of paradigm has the potential to discover good strategies, this paradigm also inhibits RL methods from collecting enough experience or training data in real-world problems where active interaction is expensive (e.</description>
+    </item>
+    
     <item>
       <title>Insights into Intelligence</title>
       <link>https://97hongjun.github.io/p/insights-intelligence/</link>

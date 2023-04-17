@@ -7,7 +7,6 @@ slug: insights-intelligence
 image: sutton_banner.svg
 categories:
     - Alberta
-    - Upcoming
 ---
 
 ### Logistics
