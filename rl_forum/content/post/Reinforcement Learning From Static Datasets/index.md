@@ -13,7 +13,7 @@ categories:
 ### Logistics
 <p>
     <strong> Time:</strong> 4:30-5:30 PM; 4/26/2022<br>
-    <strong> Location: TBD</strong>
+    <strong> Location: Building 200, Room 305</strong>
 </p>
 
 ### Presenter
