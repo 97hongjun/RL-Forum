@@ -7,7 +7,6 @@ slug: rl-static-data
 image: Aviral.png
 categories:
     - Berkeley
-    - Upcoming
 ---
 
 ### Logistics
@@ -39,4 +38,5 @@ categories:
 
 ### Recording
 <p>
+<a href="https://www.youtube.com/watch?v=H7_RTFv7dDw" target="_blank" rel="noopener noreferrer">Lecture Recording</a><br>
 </p>
