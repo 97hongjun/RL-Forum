@@ -20,7 +20,7 @@ menu:
 </div>
 
 <div class="myDiv">
-  <img src="/media/hong.jpeg" alt="bvr" width="150" class="floatleft">
+  <img src="/media/hong2.jpg" alt="bvr" width="150" class="floatleft">
   <h3> Hong Jun Jeon </h3> 
   <p>
   hjjeon at stanford.edu<br>

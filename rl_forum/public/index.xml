@@ -6,7 +6,41 @@
         <description>Recent content on Stanford RL Forum</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 26 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Continual Subtask Learning</title>
+        <link>https://97hongjun.github.io/p/continual-subtask-learning/</link>
+        <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://97hongjun.github.io/p/continual-subtask-learning/</guid>
+        <description>&lt;img src="https://97hongjun.github.io/p/continual-subtask-learning/adam_white.svg" alt="Featured image of post Continual Subtask Learning" /&gt;&lt;h3 id=&#34;logistics&#34;&gt;Logistics&lt;/h3&gt;
+&lt;p&gt;
+    &lt;strong&gt; Time:&lt;/strong&gt; 4:00-5:00 PM; Wednesday 12/06/2023&lt;br&gt;
+    &lt;strong&gt;Location:&lt;/strong&gt; Packard 202 &lt;br&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;presenter&#34;&gt;Presenter&lt;/h3&gt;
+&lt;p&gt;
+    Adam White&lt;br&gt;
+    Assistant Professor,&lt;br&gt;
+    Unversity of Alberta&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;
+    In many real-world problems the agent is much smaller than the vast world in which it must operate. In such scenarios, the world appears non-stationary to the agent, and thus we require agents capable of stable, non-convergent, never-ending learning. Successful agents must balance specializing their learning to the current situation with the need to learn many things over time which can be combined to learn yet new things--a concept known as scaffolding. We will start with an empirical study in Atari demonstrating how current deep reinforcement learning agents fail to learn continually, and in fact catastrophically unlearn over time. The remainder of the talk will focus on new architectures and algorithms for learning many things--subtasks formulated as general value functions--in parallel from a single stream of experience.
+&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;p&gt;
+    &lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://arxiv.org/abs/2303.07507&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
+&lt;p&gt;
+    Adam White is an Assistant Professor at the University of Alberta. He is a Fellow and Director of the Alberta Machine Intelligence Institute and a Principle Investigator of Reinforcement Learning and Artificial Intelligence group at the University of Alberta. Adam is a Canada CIFAR Chair in Artificial Intelligence. Adam is the co-creator of the Reinforcement Learning Specialization on Coursera. Adam&#39;s research is focused on understanding the fundamental principles of learning in young humans, animals, and artificial agents in both simulated worlds and real industrial control applications. Adam&#39;s group is deeply passionate about good empirical practices and new methodologies to help determine if our algorithms are ready for deployment in the real world.
+&lt;/p&gt;
+&lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Reinforcement Learning from Static Datasets Algorithms, Analysis and Applications</title>
         <link>https://97hongjun.github.io/p/rl-static-data/</link>
         <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
