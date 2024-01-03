@@ -12,7 +12,7 @@ categories:
 ### Logistics
 <p>
     <strong> Time:</strong> 4:00-5:00 PM; 01/09/2024<br>
-    <strong> Location:</strong>
+    <strong> Location: Packard 202</strong>
 </p>
 
 ### Presenter
