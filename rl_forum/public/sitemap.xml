@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://97hongjun.github.io/categories/</loc>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://97hongjun.github.io/categories/</loc>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://97hongjun.github.io/categories/cmu/</loc>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://97hongjun.github.io/post/</loc>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://97hongjun.github.io/p/restless-bandit/</loc>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://97hongjun.github.io/</loc>
+    <lastmod>2024-01-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://97hongjun.github.io/categories/alberta/</loc>
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://97hongjun.github.io/categories/</loc>
-    <lastmod>2023-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://97hongjun.github.io/categories/</loc>
-    <lastmod>2023-12-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://97hongjun.github.io/p/continual-subtask-learning/</loc>
-    <lastmod>2023-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://97hongjun.github.io/post/</loc>
-    <lastmod>2023-12-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://97hongjun.github.io/</loc>
     <lastmod>2023-12-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://97hongjun.github.io/categories/berkeley/</loc>
@@ -77,6 +83,8 @@
     <loc>https://97hongjun.github.io/about/</loc>
   </url><url>
     <loc>https://97hongjun.github.io/categories/berkeley/</loc>
+  </url><url>
+    <loc>https://97hongjun.github.io/categories/cmu/</loc>
   </url><url>
     <loc>https://97hongjun.github.io/categories/deepmind/</loc>
   </url><url>

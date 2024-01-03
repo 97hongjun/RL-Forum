@@ -6,7 +6,40 @@
         <description>Recent content on Stanford RL Forum</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Recent Advances in Average-Reward Restless Bandits</title>
+        <link>https://97hongjun.github.io/p/restless-bandit/</link>
+        <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://97hongjun.github.io/p/restless-bandit/</guid>
+        <description>&lt;img src="https://97hongjun.github.io/p/restless-bandit/weina.svg" alt="Featured image of post Recent Advances in Average-Reward Restless Bandits" /&gt;&lt;h3 id=&#34;logistics&#34;&gt;Logistics&lt;/h3&gt;
+&lt;p&gt;
+    &lt;strong&gt; Time:&lt;/strong&gt; 4:00-5:00 PM; 01/09/2024&lt;br&gt;
+    &lt;strong&gt; Location:&lt;/strong&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;presenter&#34;&gt;Presenter&lt;/h3&gt;
+&lt;p&gt;
+    Weina Wang&lt;br&gt;
+    Assistant Professor,&lt;br&gt;
+    Computer Science Department,&lt;br&gt;
+    Carnegie Mellon University&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;
+    We consider the infinite-horizon, average reward restless bandit problem.  A central challenge is designing computationally efficient policies that achieve a diminishing optimality gap as the number of arms, N, grows large.  Existing policies, including the renowned Whittle index policy, all rely on a uniform global attractor property (UGAP) assumption to achieve asymptotic optimality, which is a complex and difficult-to-verify assumption.  In this talk, I will present new, sampling-based policy designs for restless bandits.  One of our proposed policies breaks the long-standing UGAP assumption for the first time, and the subsequent policies eliminate the need for the UGAP assumption to achieve asymptotic optimality.  Our techniques offer new insights into guaranteeing convergence (avoiding undesirable attractors or cycles) in large stochastic systems.  This talk is based on joint work with Yige Hong (CMU), Qiaomin Xie (UW–Madison), and Yudong Chen (UW–Madison).
+&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
+&lt;p&gt;
+    Weina Wang is an Assistant Professor in the Computer Science Department at Carnegie Mellon University. Her research lies in the broad area of applied probability and stochastic systems, with applications in cloud computing, data centers, and privacy-preserving data analytics. She was a joint postdoctoral research associate in the Coordinated Science Lab at the University of Illinois at Urbana-Champaign, and in the School of ECEE at Arizona State University, from 2016 to 2018. She received her Ph.D. degree in Electrical Engineering from Arizona State University in 2016, and her Bachelor’s degree from the Department of Electronic Engineering at Tsinghua University in 2009. Her dissertation received the Dean’s Dissertation Award in the Ira A. Fulton Schools of Engineering at Arizona State University in 2016. She received the Kenneth C. Sevcik Outstanding Student Paper Award at ACM SIGMETRICS 2016, the Best Paper Award at ACM MobiHoc 2022, an NSF CAREER award in 2022, and the ACM SIGMETRICS Rising Star Research Award in 2023.
+&lt;/p&gt;
+&lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;</description>
+        </item>
+        <item>
         <title>Continual Subtask Learning</title>
         <link>https://97hongjun.github.io/p/continual-subtask-learning/</link>
         <pubDate>Wed, 06 Dec 2023 00:00:00 +0000</pubDate>

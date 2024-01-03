@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CMU on Stanford RL Forum</title>
+    <link>https://97hongjun.github.io/categories/cmu/</link>
+    <description>Recent content in CMU on Stanford RL Forum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 09 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/categories/cmu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recent Advances in Average-Reward Restless Bandits</title>
+      <link>https://97hongjun.github.io/p/restless-bandit/</link>
+      <pubDate>Tue, 09 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://97hongjun.github.io/p/restless-bandit/</guid>
+      <description>Logistics   Time: 4:00-5:00 PM; 01/09/2024
+ Location: Presenter  Weina Wang
+Assistant Professor,
+Computer Science Department,
+Carnegie Mellon University
+Abstract  We consider the infinite-horizon, average reward restless bandit problem. A central challenge is designing computationally efficient policies that achieve a diminishing optimality gap as the number of arms, N, grows large. Existing policies, including the renowned Whittle index policy, all rely on a uniform global attractor property (UGAP) assumption to achieve asymptotic optimality, which is a complex and difficult-to-verify assumption.</description>
+    </item>
+    
+  </channel>
+</rss>
