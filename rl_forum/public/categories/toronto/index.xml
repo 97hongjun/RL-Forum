@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Toronto on Stanford RL Forum</title>
+    <link>https://97hongjun.github.io/categories/toronto/</link>
+    <description>Recent content in Toronto on Stanford RL Forum</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/categories/toronto/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Challenges in Scalable Training Data Attribution</title>
+      <link>https://97hongjun.github.io/p/data-attribution/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://97hongjun.github.io/p/data-attribution/</guid>
+      <description>Logistics   Time: 4:00-5:00 PM; 04/23/2024
+ Location: Allen 101X Presenter  Roger Grosse
+Associate Professor,
+Computer Science Department,
+University of Toronto
+Abstract  How can we trace surprising behaviors of machine learning models back to their training data? Influence functions and related methods aim to predict how the trained model would change if a specific training example were added or removed. Two issues have blocked their applicability to large neural nets: the difficulty of computing with neural net Hessians, and the inability of influence functions to capture implicit bias of optimizers.</description>
+    </item>
+    
+  </channel>
+</rss>

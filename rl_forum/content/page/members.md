@@ -30,7 +30,7 @@ menu:
 
 <div class="myDiv">
   <img src="/media/anmol.jpg" alt="bvr" width="150" class="floatleft">
-  <h3> Anmol Manish Kagrecha </h3> 
+  <h3> Anmol Manish Kagrecha </h3>
   <p>
   anmolk at stanford.edu<br>
   Ph.D. Student in Electrical Engineering
