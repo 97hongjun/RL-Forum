@@ -6,7 +6,20 @@
     <description>Recent content in Alberta on Stanford RL Forum</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/categories/alberta/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/categories/alberta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computing and Planning with Large Generative Models</title>
+      <link>https://97hongjun.github.io/p/compute-plan-llm/</link>
+      <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://97hongjun.github.io/p/compute-plan-llm/</guid>
+      <description>Logistics   Time: 3:00-4:00 PM; Friday 10/11/2024
+Location: Allen 101X Presenter  Dale Schuurmans
+Professor,
+Unversity of Alberta
+Abstract  The ability of large generative models to respond naturally to text, image and audio inputs has created significant excitement. Particularly interesting is the ability of such models to generate outputs that resemble coherent reasoning and computational sequences. I will first discuss the inherent computational properties of large language models, showing how they can be proved Turing complete in natural deployments.</description>
+    </item>
+    
     <item>
       <title>Continual Subtask Learning</title>
       <link>https://97hongjun.github.io/p/continual-subtask-learning/</link>

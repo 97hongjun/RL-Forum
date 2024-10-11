@@ -6,7 +6,41 @@
         <description>Recent content on Stanford RL Forum</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 23 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 11 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://97hongjun.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Computing and Planning with Large Generative Models</title>
+        <link>https://97hongjun.github.io/p/compute-plan-llm/</link>
+        <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
+        
+        <guid>https://97hongjun.github.io/p/compute-plan-llm/</guid>
+        <description>&lt;img src="https://97hongjun.github.io/p/compute-plan-llm/dale.svg" alt="Featured image of post Computing and Planning with Large Generative Models" /&gt;&lt;h3 id=&#34;logistics&#34;&gt;Logistics&lt;/h3&gt;
+&lt;p&gt;
+    &lt;strong&gt; Time:&lt;/strong&gt; 3:00-4:00 PM; Friday 10/11/2024&lt;br&gt;
+    &lt;strong&gt;Location:&lt;/strong&gt; Allen 101X &lt;br&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;presenter&#34;&gt;Presenter&lt;/h3&gt;
+&lt;p&gt;
+    Dale Schuurmans&lt;br&gt;
+    Professor,&lt;br&gt;
+    Unversity of Alberta&lt;br&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;
+    The ability of large generative models to respond naturally to text, image and audio inputs has created significant excitement. Particularly interesting is the ability of such models to generate outputs that resemble coherent reasoning and computational sequences. I will first discuss the inherent computational properties of large language models, showing how they can be proved Turing complete in natural deployments. The co-existence of informal and formal computational systems in the same model does not change what is computable, but does provide new means for eliciting desired behavior. I will then consider non-deterministic computation, which captures planning and theorem proving as special cases. Finally, I will discuss some recent progress in leveraging large text-video models as real world simulators that enable planning for real environments. Leveraging large generative models jointly as simulators and agents has led to advances in several application areas.
+&lt;/p&gt;
+&lt;h3 id=&#34;reference&#34;&gt;Reference&lt;/h3&gt;
+&lt;p&gt;
+    &lt;a href=&#34;url&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;https://arxiv.org/abs/2410.03170&lt;/a&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;bio&#34;&gt;Bio&lt;/h3&gt;
+&lt;p&gt;
+    Dale Schuurmans is a Research Director at Google DeepMind, Professor of Computing Science at the University of Alberta, Canada CIFAR AI Chair, and Fellow of AAAI. He has served as an Associate Editor in Chief for IEEE TPAMI, an Associate Editor for JMLR, AIJ, JAIR and MLJ, and a Program Co-chair for AAAI-2016, NeurIPS-2008 and ICML-2004. He has published over 250 papers in machine learning and artificial intelligence, and received paper awards at ICLR, NeurIPS, ICML, IJCAI, and AAAI.
+&lt;/p&gt;
+&lt;h3 id=&#34;recording&#34;&gt;Recording&lt;/h3&gt;
+&lt;p&gt;
+&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Challenges in Scalable Training Data Attribution</title>
         <link>https://97hongjun.github.io/p/data-attribution/</link>
         <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
