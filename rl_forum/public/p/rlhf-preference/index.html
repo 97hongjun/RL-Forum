@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Logistics   Time: 3:00-4:00 PM; 05/29/2025
+ Location: 380-380Y, Sloan Math Corner Presenter  Brad Knox
+Assistant Professor,
+Computer Science Department,
+University of Texas at Austin
+Abstract  RLHF algorithms assume a preference probability function, a mapping from a human&#39;s desires to preference labels, given a pair of options. This mapping is effectively a psychological model of how humans form preferences and is used in RLHF to invert a preference dataset to infer the hidden desires of humans.'><title>Building RLHF around psychological models of human preference</title>
+
+<link rel='canonical' href='https://97hongjun.github.io/p/rlhf-preference/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Building RLHF around psychological models of human preference'>
+<meta property='og:description' content='Logistics   Time: 3:00-4:00 PM; 05/29/2025
+ Location: 380-380Y, Sloan Math Corner Presenter  Brad Knox
+Assistant Professor,
+Computer Science Department,
+University of Texas at Austin
+Abstract  RLHF algorithms assume a preference probability function, a mapping from a human&#39;s desires to preference labels, given a pair of options. This mapping is effectively a psychological model of how humans form preferences and is used in RLHF to invert a preference dataset to infer the hidden desires of humans.'>
+<meta property='og:url' content='https://97hongjun.github.io/p/rlhf-preference/'>
+<meta property='og:site_name' content='Stanford RL Forum'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-05-29T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-05-29T00:00:00&#43;00:00'/><meta property='og:image' content='https://97hongjun.github.io/p/rlhf-preference/rlhf-cover.png' />
+<meta name="twitter:title" content="Building RLHF around psychological models of human preference">
+<meta name="twitter:description" content="Logistics   Time: 3:00-4:00 PM; 05/29/2025
+ Location: 380-380Y, Sloan Math Corner Presenter  Brad Knox
+Assistant Professor,
+Computer Science Department,
+University of Texas at Austin
+Abstract  RLHF algorithms assume a preference probability function, a mapping from a human&#39;s desires to preference labels, given a pair of options. This mapping is effectively a psychological model of how humans form preferences and is used in RLHF to invert a preference dataset to infer the hidden desires of humans."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://97hongjun.github.io/p/rlhf-preference/rlhf-cover.png' />
+    </head>
+    <body class="
+    article-page 
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        on-phone--column extended
+    
+">
+    
+        <aside class="sidebar left-sidebar sticky">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header class="site-info">
+        
+            
+            <figure class="site-avatar">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/rl_forum_logo_hucef9e86abd72ff6711eb16ec63611cda_215122_300x0_resize_box_3.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+
+                
+            </figure>
+            
+        
+        <h1 class="site-name"><a href="/">Stanford RL Forum</a></h1>
+        <h2 class="site-description"></h2>
+    </header>
+
+    <ol class="menu" id="main-menu">
+        
+        
+        
+
+        <li >
+            <a href='/about/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/organising-members/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>Organising Members</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/archives/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+
+        <li >
+            <a href='/search/' >
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+
+        
+            <li id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <span>Dark Mode</span>
+            </li>
+        
+    </ol>
+</aside>
+
+    
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/rlhf-preference/">
+                <img src="/p/rlhf-preference/rlhf-cover_hu4049050de923c5385ff3e41179be7194_213168_800x0_resize_box_3.png"
+                        srcset="/p/rlhf-preference/rlhf-cover_hu4049050de923c5385ff3e41179be7194_213168_800x0_resize_box_3.png 800w, /p/rlhf-preference/rlhf-cover_hu4049050de923c5385ff3e41179be7194_213168_1600x0_resize_box_3.png 1600w"
+                        width="800" 
+                        height="380" 
+                        loading="lazy"
+                        alt="Featured image of post Building RLHF around psychological models of human preference" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/austin/" >
+                Austin
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/p/rlhf-preference/">Building RLHF around psychological models of human preference</a>
+    </h2>
+
+    
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">May 29, 2025</time>
+            </div>
+        
+
+        
+    </footer>
+    
+</div>
+</header>
+
+    <section class="article-content">
+    <h3 id="logistics">Logistics</h3>
+<p>
+    <strong> Time:</strong> 3:00-4:00 PM; 05/29/2025<br>
+    <strong> Location: 380-380Y, Sloan Math Corner</strong>
+</p>
+<h3 id="presenter">Presenter</h3>
+<p>
+    Brad Knox<br>
+    Assistant Professor,<br>
+    Computer Science Department,<br>
+    University of Texas at Austin<br>
+</p>
+<h3 id="abstract">Abstract</h3>
+<p>
+RLHF algorithms assume a preference probability function, a mapping from a human's desires to preference labels, given a pair of options. This mapping is effectively a psychological model of how humans form preferences and is used in RLHF to invert a preference dataset to infer the hidden desires of humans. In the context of general decision-making (e.g., robotics) and LLMs: I will discuss the accuracy of various psychological models of preference, the impact of the RLHF assuming different psychological models than those used to generate the preference labels, and how designers can help people conform more to a chosen psychological model. Along the way, I will consider what type of reward function can be drawn from different preference probability functions, impacting when learning superhuman performance is possible.
+</p>
+<h3 id="reference">Reference</h3>
+<p>
+</p>
+<h3 id="bio">Bio</h3>
+<p>
+Brad is a Research Associate Professor of Computer Science at the University of Texas at Austin. His research has largely focused on the human side of reinforcement learning. He is currently concerned with how humans can specify reward functions that are aligned with their interests. Brad’s dissertation, “Learning from Human-Generated Reward”, comprised early pioneering work on human-in-the-loop reinforcement learning and won the 2012 best dissertation award for the UT Austin Department of Computer Science. His postdoctoral research at the MIT Media Lab focused on creating interactive characters through machine learning on puppetry-style demonstrations of interaction. Stepping away from research during 2015–2018, Brad founded and sold his startup Bots Alive, working in the toy robotics sector. In recent years, Brad co-led the Bosch Learning Agents Lab at UT Austin and was a Senior Research Scientist at Google. He has won multiple best paper awards and was named to IEEE Intelligent System’s AI’s 10 to Watch in 2013.
+</p>
+<h3 id="recording">Recording</h3>
+<p>
+</p>
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    </footer>
+
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+     
+    
+        
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2025 Stanford RL Forum
+    </section>
+    
+    <section class="powerby">
+        Logo designed by Seohyun Jeon <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.2.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
