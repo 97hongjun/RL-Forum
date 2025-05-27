@@ -15,7 +15,7 @@
       <guid>https://97hongjun.github.io/p/rlhf-preference/</guid>
       <description>Logistics   Time: 3:00-4:00 PM; 05/29/2025
  Location: 380-380Y, Sloan Math Corner Presenter  Brad Knox
-Assistant Professor,
+Associate Professor,
 Computer Science Department,
 University of Texas at Austin
 Abstract  RLHF algorithms assume a preference probability function, a mapping from a human&#39;s desires to preference labels, given a pair of options. This mapping is effectively a psychological model of how humans form preferences and is used in RLHF to invert a preference dataset to infer the hidden desires of humans.</description>

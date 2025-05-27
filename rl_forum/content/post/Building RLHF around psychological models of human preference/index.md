@@ -18,7 +18,7 @@ categories:
 ### Presenter
 <p>
     Brad Knox<br>
-    Assistant Professor,<br>
+    Associate Professor,<br>
     Computer Science Department,<br>
     University of Texas at Austin<br>
 </p>
